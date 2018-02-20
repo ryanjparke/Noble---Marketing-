@@ -1,0 +1,39 @@
+@import url('https://cloud.typography.com/7268774/6354952/css/fonts.css');
+
+/* Navigation */
+.navContainer {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    transition: .6s;
+    z-index: 10;
+    transition-delay: .25s;
+    background-color: rgba(50, 47, 47, 0.36);
+    color: white;
+}
+
+.navLeft {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.navRight a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-size: 8.5pt;
+    letter-spacing: 4px;
+    /* font-family: "Gotham SSm A";
+    font-style: normal;
+    font-weight: 200; */
+}
+
+.navRight a:hover {
+    color: #2AAAE2;
+    transition: .25s;
+}
