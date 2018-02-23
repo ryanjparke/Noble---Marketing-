@@ -1,15 +1,15 @@
+/***** FONT URL *****/
+
 .HomeContainer {
-    width: 100 vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
 
 .backgroundVid video {
     width: 100vw;
     transition: .45s;
-}
-
-.nobleWhite {
-    height: 10vh;
-    width: 10vw;
+    /* opacity: .8; */
 }
 
 
@@ -28,7 +28,7 @@
 @media (max-width:800px) {
     .HomeContainer {
         width: 100vw;
-        background-color: black;
+        background-color: blue;
     }
     .backgroundVid video {
         display: none;

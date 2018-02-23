@@ -29,7 +29,6 @@ class Home extends Component {
                 <div className='backgroundVid' >
                     <video loop autoPlay><source src={Whiteboard} type = "video/mp4" />
                     </video>
-                    <img src={Noblewhite} alt='Noblewhite' className='nobleWhite' />
 
 
 
