@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 import Whiteboard from './../../assets/Whiteboard.mp4';
+import Noblewhite from './../../assets/Noblewhite.png';
 
 
 class Home extends Component {
@@ -25,9 +26,10 @@ class Home extends Component {
                 {/* ----------FONT URL---------- */}
                 {/* <style>@import url('https://cloud.typography.com/7268774/6354952/css/fonts.css');</style> */}
                 <Nav />
-                <div className='backgrounVid' >
+                <div className='backgroundVid' >
                     <video loop autoPlay><source src={Whiteboard} type = "video/mp4" />
                     </video>
+                    <img src={Noblewhite} alt='Noblewhite' className='nobleWhite' />
 
 
 

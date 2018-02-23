@@ -1,0 +1,40 @@
+.HomeContainer {
+    width: 100 vw;
+}
+
+.backgroundVid video {
+    width: 100vw;
+    transition: .45s;
+}
+
+.nobleWhite {
+    height: 10vh;
+    width: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile and tablet section */
+@media (max-width:800px) {
+    .HomeContainer {
+        width: 100vw;
+        background-color: black;
+    }
+    .backgroundVid video {
+        display: none;
+    }
+    .nobleWhite {
+        display: none;
+    }
+
+}
