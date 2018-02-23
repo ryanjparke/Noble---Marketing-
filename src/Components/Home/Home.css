@@ -1,0 +1,40 @@
+/***** FONT URL *****/
+
+.HomeContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.backgroundVid video {
+    width: 100vw;
+    transition: .45s;
+    /* opacity: .8; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile and tablet section */
+@media (max-width:800px) {
+    .HomeContainer {
+        width: 100vw;
+        background-color: blue;
+    }
+    .backgroundVid video {
+        display: none;
+    }
+    .nobleWhite {
+        display: none;
+    }
+
+}

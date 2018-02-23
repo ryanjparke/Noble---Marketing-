@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './About.css';
+import './Contact.css';
 import { Link } from 'react-router-dom';
 
 import Nav from '../Nav/Nav';
@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer';
 
 
 
-class About extends Component {
+class Contact extends Component {
     constructor(props) {
         super(props);
 
@@ -19,12 +19,12 @@ class About extends Component {
     // }
     render() {
         return (
-            <div className='AboutContainer'>
+            <div className='ContactContainer'>
                 <Nav />
-                <h1> WE ARE NOBLE </h1>
+                <h1> CONTACT US </h1>
 
             </div >
         )
     }
 }
-export default About;
+export default Contact;
