@@ -86,25 +86,10 @@
         display: flex;
         justify-content: center;
         align-items: center; 
-        margin-right: 15px; 
+        margin-right: 10px; 
     }
 
-    .mobileMenu {
-        cursor: pointer;
-        margin-right: 10px;
-        z-index: 10;
-        transition: .4s;
-    }
-
-    .menuIcon {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-
-    .bar1 {
+    /* .bar1 {
         
          -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
         transform: rotate(-45deg) translate(-9px, 6px) ;
@@ -118,60 +103,10 @@
     .bar3 {
         -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
         transform: rotate(45deg) translate(-8px, -8px) ;
-    }
+    } */
 
-    .modalHolder {
-        width: 100vw;
-        display: flex;
-        justify-content: flex-end;
-        overflow-x:hidden;
-        position: absolute;
-        z-index: 5;
-        margin-top: 0px;
-        height: 400px;
-        height: 100vh;
-        transition: .5s;
-        background: rgba(51, 51, 51, 0.5);
-        position: fixed;
-    }
-    .menuLinkHolder {
-        width: 90%;
-        height: 80%;
-        background: #fff;
-        border: solid 1px rgb(178, 178, 178);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 5px;
-    }
-    .hideModal {
-        z-index: -1;
-        margin-right: -100vw;
-        background: transparent;
-    }
-    .hideMenuModal {
-        padding-top: 70px;
-        margin: 0;
-        margin-right: -100vw;
-        transition: .5s;
-        z-index: -1;
-    }
-    .displayMenuModal {
-        display: flex;
-        transition: .5s;
-        z-index: 2;
-    }
-    .menuLinkHolder {
-        width: 90%;
-        height: 80%;
-        background: #fff;
-        border: solid 1px rgb(178, 178, 178);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 5px;
+    .muiMobile {
+        color: white;
     }
 
 

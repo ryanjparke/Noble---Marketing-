@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
+///ASSETS///
 import Noblesmall from './../../assets/Noblesmall.png';
+
+/// Material UI ///
+import IconMenu from 'material-ui/IconMenu';
+import MenuItem from 'material-ui/MenuItem';
+import IconButton from 'material-ui/IconButton';
+import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 
 class Nav extends Component {
     constructor(props) {
@@ -44,7 +51,7 @@ class Nav extends Component {
                         <img src={Noblesmall} alt='Noblesmall' className="mobileNoble" />
                     </div>
                     <div className='mobileRight' >
-                        <div className='menu'>
+                        {/* <div className='menu'>
                             <div className='mobileMenu' onClick={this.toggleMenuFunc}>
                                 <div className={this.state.toggleMenu ? "bar1 menuIcon" : "menuIcon"}></div>
                                 <div className={this.state.toggleMenu ? "bar2 menuIcon" : "menuIcon"}></div>
@@ -52,10 +59,27 @@ class Nav extends Component {
 
                             </div>
 
+                        </div> */}
+
+                        <div className='muiMobile'>
+                            <IconMenu
+                                iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
+                                anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
+                                targetOrigin={{ horizontal: 'right', vertical: 'top' }}
+                            >
+                                <MenuItem className='menuText' primaryText="Products" />
+                                <MenuItem className='menuText' primaryText="About" />
+                                <MenuItem className='menuText' primaryText="Contact" />
+                                <MenuItem className='menuText' primaryText="Request a Demo" />
+                            </IconMenu>
+
                         </div>
 
-                    </div>
-                    {/* <div className={this.state.toggleGear || this.state.toggleMenu ? 'modalHolder' : 'modalHolder hideModal'} onClick={this.toggleAllFalse}>
+
+
+
+
+                        {/* <div className={this.state.toggleGear || this.state.toggleMenu ? 'modalHolder' : 'modalHolder hideModal'} onClick={this.toggleAllFalse}>
                     </div>
 
                     <div className={this.state.toggleMenu ? ' displayMenuModal menuDropDown ' : 'hideMenuModal menuDropDown'}>
@@ -67,10 +91,11 @@ class Nav extends Component {
                         </div>
                     </div> */}
 
+                    </div>
+
+
+
                 </div>
-
-
-
             </div>
         )
     }

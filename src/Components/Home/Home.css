@@ -28,7 +28,7 @@
 @media (max-width:800px) {
     .HomeContainer {
         width: 100vw;
-        background-color: blue;
+        background-color: white;
     }
     .backgroundVid video {
         display: none;
