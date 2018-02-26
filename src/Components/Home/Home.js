@@ -29,6 +29,7 @@ class Home extends Component {
                 <div className='backgroundVid' >
                     <video loop autoPlay><source src={Whiteboard} type="video/mp4" />
                     </video>
+                    <a href='/demo'>Request a demo </a>
                 </div>
 
 

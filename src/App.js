@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import Products from './Components/Products/Products';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+import Demo from './Components/Demo Request/Demo'
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route component={Products} path='/products' />
             <Route component={About} path='/about' />
             <Route component={Contact} path='/contact' />
+            <Route component={Demo} path='/demo' />
           </Switch>
         </Router>
       </div>
