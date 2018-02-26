@@ -27,12 +27,20 @@ class Home extends Component {
                 {/* <style>@import url('https://cloud.typography.com/7268774/6354952/css/fonts.css');</style> */}
                 <Nav />
                 <div className='backgroundVid' >
-                    <video loop autoPlay><source src={Whiteboard} type = "video/mp4" />
+                    <video loop autoPlay><source src={Whiteboard} type="video/mp4" />
                     </video>
                 </div>
 
+
+
+                {/* MOBILE VIEW */}
+                <div className='mobileHome'>
+                    <h4>INTRODUCING CASE MANAGER</h4>
+
             </div >
-        )
+                {/* Container Div */ }
+                </div >
+                )
     }
 }
 export default Home;

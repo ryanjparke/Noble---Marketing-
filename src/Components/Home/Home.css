@@ -24,17 +24,25 @@
 
 
 
+
 /* mobile and tablet section */
 @media (max-width:800px) {
     .HomeContainer {
+        margin-top: 70px;
         width: 100vw;
         background-color: white;
+
     }
     .backgroundVid video {
         display: none;
     }
     .nobleWhite {
         display: none;
+    }
+    .mobileHome {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
 }
