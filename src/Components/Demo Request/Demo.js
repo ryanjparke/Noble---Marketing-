@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 import Nav from './../Nav/Nav';
+import Pattern from './../../assets/Pattern.svg';
 
 import TextField from 'material-ui/TextField';
 
@@ -36,22 +37,35 @@ class Demo extends Component {
             <div className='demoContainer'>
                 <Nav />
                 <div className='modalWindow' >
-                    <p>Request a demo</p>
+                    <h2>Request a demo</h2>
                     <div className='requestInfo' >
 
                         <div>
                             <TextField
                                 hintText="Name"
                                 floatingLabelText="NAME"
-                                multiLine={true}
+                                multiLine={false}
                                 rows={1}
                             /> <br />
                             <TextField
                                 hintText="johndoe@testemail.com"
                                 floatingLabelText="EMAIL"
-                                multiLine={true}
+                                multiLine={false}
                                 rows={1}
                             /> <br />
+                            <TextField
+                                hintText="COUNTY/STATE"
+                                floatingLabelText="LOCATION"
+                                multiLine={false}
+                                rows={1}
+                            /> <br />
+                            <TextField
+                                hintText="Message"
+                                floatingLabelText="MESSAGE"
+                                multiLine={false}
+                                rows={1}
+                            /> <br />
+                            <h3>SUBMIT</h3>
 
                         </div>
                         {/* <form>
