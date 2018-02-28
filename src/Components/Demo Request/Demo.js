@@ -3,6 +3,11 @@
 import React, { Component } from 'react';
 import './Demo.css';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+
+import Nav from './../Nav/Nav';
+
+import TextField from 'material-ui/TextField';
 
 
 
@@ -11,16 +16,54 @@ class Demo extends Component {
         super(props);
 
         this.state = {
-
+            name: '',
+            email: '',
+            subject: '',
+            message: '',
+            submitSuccess: false
         }
+        // this.sendEmail = this.sendEmail.bind(this);
+        // this.handleChange = this.handleChange.bind(this)
+    }
+    handleChange(prop, val) {
+        this.setState({
+            [prop]: val
+        }, () => console.log('state', this.state))
     }
 
     render() {
         return (
             <div className='demoContainer'>
-                <p>Request a demo</p>
+                <Nav />
+                <div className='modalWindow' >
+                    <p>Request a demo</p>
+                    <div className='requestInfo' >
+
+                        <div>
+                            <TextField
+                                hintText="Name"
+                                floatingLabelText="NAME"
+                                multiLine={true}
+                                rows={1}
+                            /> <br />
+                            <TextField
+                                hintText="johndoe@testemail.com"
+                                floatingLabelText="EMAIL"
+                                multiLine={true}
+                                rows={1}
+                            /> <br />
+
+                        </div>
+                        {/* <form>
+                        <input type='text' placeholder="NAME" maxLength='30' onChange={(e) => this.handleChange('name', e.target.value)} /> <br />
+                        <input type='text' placeholder="EMAIL" maxLength='30' onChange={(e) => this.handleChange('name', e.target.value)} /> <br />
+                        <input type='text' placeholder="STATE/COUNTY" maxLength='40' onChange={(e) => this.handleChange('name', e.target.value)} /> <br />
+                        <input type='text' placeholder="MESSGE" maxLength='200' onChange={(e) => this.handleChange('name', e.target.value)} /> <br />
+                        </form> */}
+                    </div>
                 </div>
-                )
+            </div>
+        )
     }
 }
 
