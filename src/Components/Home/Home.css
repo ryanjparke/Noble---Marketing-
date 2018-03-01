@@ -3,13 +3,29 @@
 .HomeContainer {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .backgroundVid video {
     width: 100vw;
     transition: .45s;
-    /* opacity: .8; */
+    z-index: 0;
+    /* opacity: .2; */
+}
+
+.demoButton {
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick solid black;
+    background-color: royalblue;
+    cursor: pointer;
+}
+.demoButton a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -25,6 +41,9 @@
 
 
 
+.mobileHome {
+    display: none;
+}
 /* mobile and tablet section */
 @media (max-width:800px) {
     .HomeContainer {

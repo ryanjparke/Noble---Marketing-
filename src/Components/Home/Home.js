@@ -29,14 +29,20 @@ class Home extends Component {
                 <div className='backgroundVid' >
                     <video loop autoPlay><source src={Whiteboard} type="video/mp4" />
                     </video>
+                    <div className='demoButton' >
                     <a href='/demo'>Request a demo </a>
+                    </div>
                 </div>
+
+
+
+
+
 
 
 
                 {/* MOBILE VIEW */}
                 <div className='mobileHome'>
-                    <h4>INTRODUCING CASE MANAGER</h4>
 
             </div >
                 {/* Container Div */ }

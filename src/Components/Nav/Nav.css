@@ -109,7 +109,11 @@
     
 
     .muiMobile {
-        color: white;
+        color: red;
+    }
+
+    .navLink {
+        text-decoration: none;
     }
 
 
