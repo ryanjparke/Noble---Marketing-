@@ -21,7 +21,9 @@ class About extends Component {
         return (
             <div className='AboutContainer'>
                 <Nav />
-                <h1> WE ARE NOBLE </h1>
+                <div className='aboutHeader' >
+                    <h1> WE ARE NOBLE </h1>
+                </div>
 
             </div >
         )
