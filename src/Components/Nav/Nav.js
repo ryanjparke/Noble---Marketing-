@@ -48,7 +48,7 @@ class Nav extends Component {
                 {/* MOBILE VIEW NAV */}
                 <div className='mobileNav' >
                     <div className='mobileLeft' >
-                        <img src={Noblesmall} alt='Noblesmall' className="mobileNoble" />
+                        <Link className="navLink" to="/"><img src={Noblesmall} alt='Noblesmall' className="mobileNoble" /></Link>
                     </div>
                     <div className='mobileRight' >
                         {/* <div className='menu'>
@@ -67,10 +67,10 @@ class Nav extends Component {
                                 anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
                                 targetOrigin={{ horizontal: 'right', vertical: 'top' }}
                             >
-                                <MenuItem className='menuText' primaryText="Products" />
-                                <MenuItem className='menuText' primaryText="About" />
-                                <MenuItem className='menuText' primaryText="Contact" />
-                                <MenuItem className='menuText' primaryText="Request a Demo" />
+                                <Link className="navLink mobile" to="/products"><MenuItem className='menuText' primaryText="Products" /></Link>
+                                <Link className="navLink mobile" to='/about'><MenuItem className='menuText' primaryText="About" /></Link>
+                                <Link className="navLink mobile" to='/contact'><MenuItem className='menuText' primaryText="Contact" /></Link>
+                               <Link className="navLink mobile" to='/demo'><MenuItem className='menuText' primaryText="Request a Demo" /></Link>
                             </IconMenu>
 
                         </div>
