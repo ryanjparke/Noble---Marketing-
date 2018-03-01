@@ -21,7 +21,11 @@ class Products extends Component {
         return (
             <div className='ProductsContainer'>
                 <Nav />
-                <h1> PRODUCTS </h1>
+                <div className='productsHeader'>
+                    <p>PRODUCTS</p>
+
+                </div>
+
             </div >
         )
     }
