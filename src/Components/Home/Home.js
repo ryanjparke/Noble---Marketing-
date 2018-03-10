@@ -5,7 +5,6 @@ import Footer from '../Footer/Footer.js';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-import Whiteboard from './../../assets/Whiteboard.mp4';
 import Noblewhite from './../../assets/Noblewhite.png';
 import Mountains from './../../assets/Mountains.jpg';
 
@@ -32,17 +31,14 @@ class Home extends Component {
                 <a href='/demo'><h4 className='getStarted'>Get started today</h4> </a>
                 </div>
                 </div>
-
-
-
-
-
-
+                <div >
+                    <h1></h1>
+                    </div>                
 
 
                 {/* MOBILE VIEW */}
                 <div className='mobileHome'>
-                    <Nav />
+                    
 
                 </div >
                 {/* Container Div */}

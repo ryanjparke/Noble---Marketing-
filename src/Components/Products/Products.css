@@ -1,12 +1,60 @@
-.ProductsContainer {
+.productsContainer {
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
-    flex-direction: column;
-    background-color: #808080;
+    flex-direction: row;
     top: 0;
+    /* justify-content: space-between; */
+    align-items: center;
+
+
+    background: url('./../../assets/Productsback.jpg');
+    background-size: cover;
+    background-position: left top;
+    
+}
+/************* LEFT SIDE *************/
+.productsSideNav {
+    margin-top: 6vh;
+    height: 100vh;
+    width: 25vw;
+
+    background-color: #2AAAE2;
+    color: white;
+    opacity: .9;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
 }
 
-.productsHeader {
-    margin-top: 10vh;
+.navOverlay {
+    /* background-color: red; */
+}
+
+.innerProducts {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 100px;
+    cursor: pointer;  
+}
+.innerProducts a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.innerProducts a:hover {
+    opacity: 1;
+    color: white;
+}
+
+/************* RIGHT SIDE *************/
+
+.indvProduct {
+    height: 60vh;
+    width: 45vw;
+    border: thin solid black;
+    /* background-color: grey; */
+    margin-left: 300px;
 }
