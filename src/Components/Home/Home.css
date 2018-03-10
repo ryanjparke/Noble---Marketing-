@@ -1,32 +1,88 @@
 /***** FONT URL *****/
+@import url("https://cloud.typography.com/7268774/6354952/css/fonts.css");
 
-.HomeContainer {
+.homeContainer {
     width: 100vw;
     height: 100vh;
-    /* background-color: black; */
+    background-color: #cccccc;
+    background: url('./../../assets/Mountains.jpg');
+    background-size: cover;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .6s;
 }
 
-.backgroundVid video {
-    width: 100vw;
-    transition: .45s;
-    z-index: 0;
-    /* opacity: .2; */
+
+.welcomeBox {
+    height: 60vh;
+    width: 45vw;
+    opacity: 1;
+    background-color:rgba(35, 34, 34, 0.61);
+    /* border: thin solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.demoButton {
-    height: 10vh;
-    width: 10vw;
+.innerWelcome {
+    height: 60vh;
+    width: 45vw;
+    /* border: thin solid white; */
+    opacity: 1;
+    /* background-color: red; */
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: thick solid black;
-    background-color: royalblue;
-    cursor: pointer;
+    flex-direction: column;
+
+    /* font-family: "Gotham SSm A, SSm B"; */
+    /* font-style: normal; */
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
-.demoButton a {
+
+.innerWelcome a {
     text-decoration: none;
-    color: black;
 }
+
+.nobleWhite {
+    height: 38vh;
+    padding: 25px;
+    opacity: 1;
+}
+
+.getStarted {
+
+    padding: 8px;
+    width: 10vw;
+
+    /* border: thin solid white; */
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #46A040;
+
+
+    color: white;
+}
+
+.getStarted:hover {
+    color: white;
+    background-color: #46A040;
+    opacity: .7;
+
+    transition: .4s;
+}
+
+
+
 
 
 
@@ -44,15 +100,18 @@
 .mobileHome {
     display: none;
 }
-/* mobile and tablet section */
+/********** mobile and tablet section **********/
 @media (max-width:800px) {
-    .HomeContainer {
+    .homeContainer {
+        /* display: none; */
         margin-top: 70px;
         width: 100vw;
-        background-color: white;
+        background-color: lightblue;
+        background: none;
 
     }
-    .backgroundVid video {
+
+    .welcomeBox {
         display: none;
     }
     .nobleWhite {
@@ -63,5 +122,6 @@
         justify-content: center;
         flex-direction: column;
     }
+    
 
 }

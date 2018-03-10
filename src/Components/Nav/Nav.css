@@ -11,14 +11,19 @@
     transition: .6s;
     z-index: 10;
     transition-delay: .25s;
-    background-color: rgba(50, 47, 47, 0.36);
+    background-color: #808080;
+    /* background-color:rgba(35, 34, 34, 0.61); */
+    opacity: .9;
     color: white;
-    box-shadow: 0px 1px 8px rgba(76, 74, 74, 0.30);
+    box-shadow: 0px 2px 8px rgba(76, 74, 74, 0.30);
 }
 
 .navLeft {
     display: flex;
     justify-content: space-around;
+     font-family: "Gotham SSm A, SSm B";
+    font-style: normal;
+    font-weight: 300; 
     
 
 }
@@ -29,9 +34,10 @@
     color: white;
     font-size: 8.5pt;
     letter-spacing: 4px;
-    /* font-family: "Gotham SSm A";
+    /* font-family: "Gotham SSm A, SSm B";
     font-style: normal;
     font-weight: 200; */
+
 }
 
 .navRight a:hover {
