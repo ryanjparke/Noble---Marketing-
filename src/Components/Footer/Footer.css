@@ -1,0 +1,85 @@
+.footerContainer {
+    height: 5vh;
+    width: 100vw;
+    background-color: #808080;
+
+    display: flex;
+    justify-content: space-around;
+
+    bottom: 0;
+    z-index: 10;
+    position: fixed;
+}
+
+/************** LEFT SECTION *************/
+
+.footerLeft {
+    height: 5vh;
+    width: 8vw;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 6vw; */
+}
+
+.footerLeft a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerLeft a:hover {
+    color: #2AAAE2;
+    transition: .3s;
+}
+
+.chatIcon {
+
+    height: 2vh;
+}
+
+/************** MIDDLE SECTION *************/
+
+.middleFooter {
+    height: 5vh;
+    width: 8vw;
+    /* background-color: black; */
+
+    margin-left: 24vw;
+    margin-right: 24vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerNoble {
+    height: 3.5vh;
+}
+
+
+/************** RIGHT SECTION *************/
+
+.rightFooter {
+    height: 5vh;
+    width: 8vw;
+    font-size: 3vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* background-color: red; */
+    /* margin-right: 6vw; */
+}
+
+.rightFooter a {
+    text-decoration: none;
+    color: black
+}
+
+.rightFooter a:hover {
+    color: #2AAAE2;
+    transition: .3s;
+}

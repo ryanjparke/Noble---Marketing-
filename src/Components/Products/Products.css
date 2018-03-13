@@ -21,7 +21,7 @@
 
     background-color: #2AAAE2;
     color: white;
-    opacity: .9;
+    /* opacity: .9; */
 
     display: flex;
     justify-content: space-around;
@@ -41,11 +41,12 @@
 }
 .innerProducts a {
     text-decoration: none;
-    color: #E5E0E0;
+    color: #ffffff;
 }
 
 .innerProducts a:hover {
-    opacity: 1;
+    border: thin solid black;
+    width: 10vw;
     color: white;
 }
 

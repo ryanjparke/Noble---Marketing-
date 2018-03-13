@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 
+import Nobleblue from './../../assets/Nobleblue.png';
+
 
 
 class About extends Component {
@@ -22,8 +24,16 @@ class About extends Component {
             <div className='AboutContainer'>
                 <Nav />
                 <div className='aboutHeader' >
-                    <h1> WE ARE NOBLE </h1>
+                    <img className='nobleBlue' src={Nobleblue} />
+                    <h1>OUR STORY</h1>
                 </div>
+                <div className="storyContainer" >
+                    <h1>In the beginning</h1>
+                </div>
+                
+
+
+                <Footer />
 
             </div >
         )

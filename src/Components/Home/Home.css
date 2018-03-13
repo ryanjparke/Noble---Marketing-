@@ -4,7 +4,6 @@
 .homeContainer {
     width: 100vw;
     height: 100vh;
-    background-color: #cccccc;
     background: url('./../../assets/Mountains.jpg');
     background-size: cover;
     display: inline-flex;
@@ -74,11 +73,11 @@
 }
 
 .getStarted:hover {
-    color: white;
-    background-color: #46A040;
-    opacity: .7;
+    color: #46A040;
+    background-color: white;
+    /* opacity: .7; */
 
-    transition: .4s;
+    transition: .3s;
 }
 
 
