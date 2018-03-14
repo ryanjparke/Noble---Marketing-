@@ -23,6 +23,8 @@ class Contact extends Component {
                 <Nav />
                 <h1> CONTACT US </h1>
 
+                <Footer />
+
             </div >
         )
     }

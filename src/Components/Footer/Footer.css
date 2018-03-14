@@ -1,9 +1,7 @@
 .footerContainer {
-    height: 6vh;
+    height: 50px;
     width: 100vw;
-    background-color: #808080;
-    /* background: url('./../../assets/Noble Pattern Footer.svg');
-    background-repeat: repeat; */
+    background-color: #353535;
 
     display: flex;
     justify-content: space-around;
@@ -11,24 +9,47 @@
     bottom: 0;
     z-index: 10;
     position: fixed;
+
+    box-shadow: 0 -2px 4px -1px rgba(0, 0, 0, .2), 0 -4px 5px 0 rgba(0, 0, 0, .14), 0 -1px 10px 0 rgba(0, 0, 0, .12);
+
+}
+
+.footerOverlay {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    z-index: 10;
+
+    background: url('./../../assets/Noble Pattern Footer.svg');
+    background-repeat: repeat;
+    /* opacity: .3; */
+
+    
 }
 
 /************** LEFT SECTION *************/
 
 .footerLeft {
     /* height: 6vh; */
-    width: 9vw;
+    width: 8vw;
     /* background-color: red; */
 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* margin-left: 6vw; */
 
     font-size: 13px;
+    color: white;
+    text-decoration: none;
 }
 
 .footerLeft a {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
     text-decoration: none;
     color: white;
 }
@@ -47,7 +68,7 @@
 
 .middleFooter {
     /* height: 5vh; */
-    width: 9vw;
+    width: 8vw;
     /* background-color: black; */
 
     margin-left: 24vw;
@@ -67,7 +88,7 @@
 
 .rightFooter {
     /* height: 5vh; */
-    width: 9vw;
+    width: 8vw;
     font-size: 3vh;
 
     display: flex;
@@ -80,7 +101,8 @@
 
 .rightFooter a {
     text-decoration: none;
-    color: black
+    color: black;
+    /* color: #2AAAE2; */
 }
 
 .rightFooter a:hover {
