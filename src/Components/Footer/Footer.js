@@ -22,19 +22,20 @@ class Footer extends Component {
     render() {
         return (
             <div className='footerContainer'>
-                <div className='footerLeft'>
-                    <img className='chatIcon' src={chaticon}
-                    />
-                    <a href='/demo'><p>Request a demo</p> </a>
-                </div>
-                <div className='middleFooter'>
-                    <img className='footerNoble' src={Noblewhite} />
-                </div>
-                <div className='rightFooter'>
-                    <a href='/'><i class="fab fa-facebook-square"></i> </a>
-                    <a href='/'><i class="fab fa-instagram"></i></a>
-                    <a href='/'><i class="fab fa-twitter-square"></i></a>
+                <div className='footerOverlay'>
+                    <div className='footerLeft'>
+                    <a href='/demo'><i class="fas fa-comment"></i>
+                    <p>Request a demo</p></a>
+                    </div>
+                    <div className='middleFooter'>
+                        <img className='footerNoble' src={Noblewhite} />
+                    </div>
+                    <div className='rightFooter'>
+                        <a href='/'><i class="fab fa-facebook-square"></i> </a>
+                        <a href='/'><i class="fab fa-instagram"></i></a>
+                        <a href='/'><i class="fab fa-twitter-square"></i></a>
 
+                    </div>
                 </div>
             </div>
         )
