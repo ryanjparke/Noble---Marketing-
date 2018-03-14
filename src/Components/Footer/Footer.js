@@ -28,14 +28,14 @@ class Footer extends Component {
                     <a href='/demo'><p>Request a demo</p> </a>
                 </div>
                 <div className='middleFooter'>
-                    <img className='footerNoble'src={Noblewhite} />
+                    <img className='footerNoble' src={Noblewhite} />
                 </div>
                 <div className='rightFooter'>
-                <a href='/'><i class="fab fa-facebook-square"></i> </a>
-                <a href='/'><i class="fab fa-instagram"></i></a>
-                <a href='/'><i class="fab fa-twitter-square"></i></a>
+                    <a href='/'><i class="fab fa-facebook-square"></i> </a>
+                    <a href='/'><i class="fab fa-instagram"></i></a>
+                    <a href='/'><i class="fab fa-twitter-square"></i></a>
 
-                    </div>
+                </div>
             </div>
         )
     }

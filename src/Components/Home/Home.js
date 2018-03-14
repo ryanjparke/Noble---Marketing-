@@ -26,21 +26,22 @@ class Home extends Component {
                 <Nav />
                 <div className='welcomeBox'>
                     <div className='innerWelcome'>
-                    <img src={Noblewhite} className='nobleWhite'/>
-                <h1>Assessments. Case Planning. Easy.</h1>
-                <a href='/demo'><h4 className='getStarted'>Get started today</h4> </a>
-                </div>
+                        <img src={Noblewhite} className='nobleWhite' />
+                        <h1>Assessments. Case Planning. Easy.</h1>
+                        <a href='/demo'><h4 className='getStarted'>Get started today</h4> </a>
+                    </div>
                 </div>
                 <div >
                     <h1></h1>
-                    </div>                
+                </div>
 
 
                 {/* MOBILE VIEW */}
                 <div className='mobileHome'>
-                    
+
 
                 </div >
+                {/* <Footer /> */}
                 {/* Container Div */}
             </div >
         )
