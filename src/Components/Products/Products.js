@@ -14,8 +14,15 @@ class Products extends Component {
         super(props);
 
         this.state = {
-
+            toggleModal: false
         }
+        this.toggleModalFunc = this.toggleModalFunc.bind(this);
+    }
+    toggleModalFunc() {
+        this.setState({
+            toggleModal: !this.state.toggleModal
+
+        })
     }
     // componentDidMount() {
     // }
@@ -41,6 +48,7 @@ class Products extends Component {
                 </div>
                 {/************* RIGHT SIDE *************/}
                 <div className='indvProduct'>
+                
                     
                     <h2>Header</h2>
                     <div className='introBody'>
@@ -50,6 +58,8 @@ class Products extends Component {
 Our software is available as a cloud-based subscription or as an on-premise solution. No matter your technical requirements, we will be able to find a model that fits. </p>
 </div>
                     </div>
+                    <div className='testButton'>TESTER</div>
+                    <Footer />
 {/* container div */}
             </div >
         )

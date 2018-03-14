@@ -1,7 +1,9 @@
 .footerContainer {
-    height: 5vh;
+    height: 6vh;
     width: 100vw;
     background-color: #808080;
+    /* background: url('./../../assets/Noble Pattern Footer.svg');
+    background-repeat: repeat; */
 
     display: flex;
     justify-content: space-around;
@@ -14,14 +16,16 @@
 /************** LEFT SECTION *************/
 
 .footerLeft {
-    height: 5vh;
-    width: 8vw;
+    /* height: 6vh; */
+    width: 9vw;
     /* background-color: red; */
 
     display: flex;
     align-items: center;
     justify-content: space-around;
     /* margin-left: 6vw; */
+
+    font-size: 13px;
 }
 
 .footerLeft a {
@@ -42,8 +46,8 @@
 /************** MIDDLE SECTION *************/
 
 .middleFooter {
-    height: 5vh;
-    width: 8vw;
+    /* height: 5vh; */
+    width: 9vw;
     /* background-color: black; */
 
     margin-left: 24vw;
@@ -55,15 +59,15 @@
 }
 
 .footerNoble {
-    height: 3.5vh;
+    height: 4vh;
 }
 
 
 /************** RIGHT SECTION *************/
 
 .rightFooter {
-    height: 5vh;
-    width: 8vw;
+    /* height: 5vh; */
+    width: 9vw;
     font-size: 3vh;
 
     display: flex;

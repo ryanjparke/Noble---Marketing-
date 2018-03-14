@@ -2,10 +2,10 @@
 @import url("https://cloud.typography.com/7268774/6354952/css/fonts.css");
 
 .homeContainer {
-    width: 100vw;
-    height: 100vh;
     background: url('./../../assets/Mountains.jpg');
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,8 @@
 
 
 .welcomeBox {
-    height: 60vh;
-    width: 45vw;
+    height: 65vh;
+    width: 55vw;
     opacity: 1;
     background-color:rgba(35, 34, 34, 0.61);
     /* border: thin solid black; */
@@ -27,8 +27,8 @@
 }
 
 .innerWelcome {
-    height: 60vh;
-    width: 45vw;
+    height: 65vh;
+    width: 55vw;
     /* border: thin solid white; */
     opacity: 1;
     /* background-color: red; */
@@ -38,8 +38,8 @@
     align-items: center;
     flex-direction: column;
 
-    /* font-family: "Gotham SSm A, SSm B"; */
-    /* font-style: normal; */
+    font-family: "Gotham SSm A, SSm B";
+    font-style: normal;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -57,7 +57,7 @@
 .getStarted {
 
     padding: 8px;
-    width: 10vw;
+    width: 12vw;
 
     /* border: thin solid white; */
     border-radius: 50px;
