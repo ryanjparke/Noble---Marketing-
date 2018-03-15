@@ -6,6 +6,7 @@ import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 
 import Productsback from './../../assets/Productsback.jpg';
+import Desktop from './../../assets/Desktop.svg';
 
 
 
@@ -46,13 +47,24 @@ class Products extends Component {
 
                 </div>
                 {/************* RIGHT SIDE *************/}
-                <div className={this.state.toggleModal ? 'indvProduct displayModal' : 'indvProduct hideModal'}>
-                    <div className='productHeader'>
-                        <h2>Header</h2>
-                        <div className='introBody'>
-
+                <div className="productsIntro">
+                    <div className='productsHeader'>
+                        <p>OUR PRODUCTS</p>
+                    </div>
+                    <div className='productsDesc'>
+                        <div className='descLeft'>
+                            <h2>Fast setup, simple use</h2>
+                            <p>Some kind of interesting short paragraph about how the setup is so simple that they will literally pass out and wake up in a year</p>
+                            <h4>Something Else</h4>
+                            <p>Another great paragraph that is a little smaller describing some other cool feature that will make people want to scroll down and learn more</p>
+                            <h4>No something? No problem</h4>
+                            <p>Another great paragraph that is a little smaller describing some other cool feature that will make people want to scroll down and learn more</p>
 
                         </div>
+                        <div className='descRight'>
+                            <img src={Desktop} />
+                        </div>
+
                     </div>
                 </div>
 
@@ -63,3 +75,8 @@ class Products extends Component {
     }
 }
 export default Products;
+
+
+
+
+{/* <div className={this.state.toggleModal ? 'indvProduct displayModal' : 'indvProduct hideModal'}> */ }
