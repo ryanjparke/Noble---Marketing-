@@ -53,13 +53,14 @@
 
 /************* RIGHT SIDE *************/
 
-.indvProduct {
-    height: 60vh;
-    width: 45vw;
-    border: thin solid black;
-    background-color: rgba(35, 34, 34, 0.61);
-    margin-left: 40vw;
-    color: white;
+.productsIntro {
+    height: 100vh;
+    width: 100vw;
+    margin-left: 20vw;
+    margin-top: 320px;
+
+    /* border: thin solid black; */
+    /* background-color: rgba(35, 34, 34, 0.61); */
 }
 
 .displayModal {
@@ -77,29 +78,45 @@
     transition-delay: .15s;
     transition: .5s;
 }
-/* .productHeader {
+.productsHeader {
+    color: #2AAAE2;
+    /* margin-top: 50px; */
+    margin-bottom: 100px;
 
-} */
+    font-weight: lighter;
+    font-size: 40px;
 
-/* .introBody {
-    height: 40vh;
-    background-color: red;
+}
+
+.productsDesc {
+    width: 100%;
+    /* background-color: black; */
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
 
-    color: white;
-} */
+    color: black;
+}
+
+.descLeft {
+    width: 30%;
+    margin-left: 100px;
+    /* background-color: red; */
+
+    text-align: left;
+
+}
 
 /************* MOBILE VIEW *************/
 @media (max-width:800px) {
-    .productsContainer {
+    .productsIntro {
         /* display: none; */
     }
     .productsSideNav {
         display: none;
     }
-    .indvProduct {
+    .productsDesc {
         display: none;
     }
 }

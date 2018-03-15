@@ -36,7 +36,7 @@ class Nav extends Component {
         return (
             <div className="navContainer">
                 <div className='navLeft'>
-                    <h4>NOBLE SOFTWARE GROUP</h4>
+                    <p>NOBLE SOFTWARE GROUP</p>
                 </div>
                 <div className='navRight' >
                     <a href='/'>HOME</a>
