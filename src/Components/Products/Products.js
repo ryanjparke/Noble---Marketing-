@@ -55,19 +55,67 @@ class Products extends Component {
                         <div className='descLeft'>
                             <h2>Fast setup, simple use</h2>
                             <p>Some kind of interesting short paragraph about how the setup is so simple that they will literally pass out and wake up in a year</p>
-                            <h4>Something Else</h4>
+                            <h5>Something Else</h5>
                             <p>Another great paragraph that is a little smaller describing some other cool feature that will make people want to scroll down and learn more</p>
-                            <h4>No something? No problem</h4>
+                            <h5>No something? No problem</h5>
                             <p>Another great paragraph that is a little smaller describing some other cool feature that will make people want to scroll down and learn more</p>
-
                         </div>
                         <div className='descRight'>
                             <img src={Desktop} />
                         </div>
 
                     </div>
+                    {/************* ICONS SECTION *************/}
+                    <div className='iconsContainer'>
+                        {/* FIRST ICON */}
+                        <div className='indvIcon'>
+                            <div className='prodIcon' >
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div className='iconDesc'>
+                                <h5>Readable data</h5>
+                                <p>Something describing it</p>
+                            </div>
+                        </div>
+                        {/* SECOND ICON */}
+                        <div className='indvIcon'>
+                            <div className='prodIcon'>
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div className='iconDesc'>
+                                <h5>Visible Growth</h5>
+                                <p>Something describing it</p>
+                            </div>
+                        </div>
+                        {/* THIRD ICON */}
+                        <div className='indvIcon'>
+                            <div className='prodIcon'>
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div className='iconDesc'>
+                                <h5>Certified training</h5>
+                                <p>Something describing it</p>
+                            </div>
+                        </div>
+                        <div className='indvIcon'>
+                            <div className='prodIcon'>
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div className='iconsDesc'>
+                                <h5>Affordable pricing</h5>
+                                <p>Something describing it</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <hr className='style1' />
+                    <div className='techHeader'>
+                        <p>Tech Specs</p>
+                    </div>
+                    <div className='testimonialHeader'>
+                        <p>Testimonials</p>
+                    </div>
                 </div>
-
                 <Footer />
                 {/* container div */}
             </div >
