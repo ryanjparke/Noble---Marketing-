@@ -84,7 +84,7 @@
     margin-bottom: 100px;
 
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 32px;
 
 }
 
@@ -141,27 +141,89 @@
 
 .prodIcon {
     color: #2AAAE2;
-    font-size: 70px;
+    font-size: 64px;
+}
+
+.iconDesc p {
+    font-weight: lighter;
 }
 
 
-
+/************* DIVIDERS *************/
 .style1 {
-    width: 80%;
+    width: 86%;
+    
+}
+.style2 {
+    width: 100%;
+}
+/************** TECH SECTION **************/
+
+.techContainer {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .techHeader {
     color: #2AAAE2;
+    height: 7vh;
 
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 32px;
+    /* background-color: red; */
 }
+
+.techDesc {
+    width: 40%;
+    font-weight: lighter;
+}
+
+.techSection {
+    /* background-color: red; */
+    margin-left: 100px;
+    width: 86.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.techLeft {
+    width: 50%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+
+    /* background-color: blue; */
+}
+
+.techLeft ul {
+    list-style-type: none;
+    font-weight: bold;
+    width: 75%;
+    
+}
+
+.indvTech {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.techIcon {
+    font-size: 25px;
+    color: #2AAAE2;
+}
+
+/************** TESTIMONIAL SECTION **************/
 
 .testimonialHeader {
     color: #2AAAE2;
 
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 /************* MOBILE VIEW *************/
