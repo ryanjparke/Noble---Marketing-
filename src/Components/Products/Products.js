@@ -101,7 +101,7 @@ class Products extends Component {
                             <div className='prodIcon'>
                                 <i class="fas fa-dollar-sign"></i>
                             </div>
-                            <div className='iconsDesc'>
+                            <div className='iconDesc'>
                                 <h5>Affordable pricing</h5>
                                 <p>Something describing it</p>
                             </div>
@@ -109,11 +109,70 @@ class Products extends Component {
                     </div>
                     <br />
                     <hr className='style1' />
-                    <div className='techHeader'>
-                        <p>Tech Specs</p>
+                    <div className='techContainer'>
+                        <div className='techHeader'>
+                            <p>TECH SPECS</p>
+                        </div>
+                        <div className='techDesc'>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
+                        </div>
                     </div>
+                    <div className='techSection'>
+                        <div className='techLeft'>
+                            <ul>
+                                <div className='indvTech'>
+                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <div className='techIcon'>
+                                        <i class="far fa-check-circle"></i>
+                                    </div>
+                                </div>
+                                <br />
+                                <hr className='style2' />
+                                <div className='indvTech'>
+                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <div className='techIcon'>
+                                        <i class="far fa-check-circle"></i>
+                                    </div>
+                                </div>
+                                <br />
+                                <hr className='style2' />
+                                <div className='indvTech'>
+                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <div className='techIcon'>
+                                        <i class="far fa-check-circle"></i>
+                                    </div>
+                                </div>
+                                <br />
+                                <hr className='style2' />
+                                <div className='indvTech'>
+                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <div className='techIcon'>
+                                        <i class="far fa-check-circle"></i>
+                                    </div>
+                                </div>
+                                <br />
+                                <hr className='style2' />
+                                <div className='indvTech'>
+                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <div className='techIcon'>
+                                        <i class="far fa-check-circle"></i>
+                                    </div>
+                                </div>
+                                <br />
+                                <hr className='style2' />
+
+                            </ul>
+                        </div>
+                        <div className='techRight'>
+                            <h4>hello</h4>
+
+                        </div>
+                    </div>
+                    <br />
+                    <hr className='style1' />
                     <div className='testimonialHeader'>
-                        <p>Testimonials</p>
+                        <p>TESTIMONIALS</p>
+                        <h1>CONTENT</h1>
                     </div>
                 </div>
                 <Footer />
