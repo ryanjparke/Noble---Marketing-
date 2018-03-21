@@ -25,30 +25,44 @@
     /* opacity: .9; */
 
     display: flex;
-    justify-content: space-around;
+
+    text-align: left;
     flex-direction: column;
 }
 
-.navOverlay {
-    /* background-color: red; */
+.navHeader {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    margin-left: 5vw;
+
+    font-size: 25px;
+    font-weight: lighter;
+    /* background-color: blue; */
+
 }
 
 .innerProducts {
+    /* background-color: red; */
+    width: 20%;
     display: flex;
-    align-items: flex-start;
+    text-align: left;
     flex-direction: column;
-    padding: 100px;
+    margin-left: 5vw;
     cursor: pointer;  
+
+    font-size: 16px;
+    /* font-weight: lighter; */
 }
 .innerProducts a {
     text-decoration: none;
     color: #ffffff;
+    font-weight: lighter;
 }
 
 .innerProducts a:hover {
-    border: thin solid black;
-    width: 10vw;
-    color: white;
+    /* border: thin solid black; */
+    /* width: 10vw; */
+    color: #808080;
 }
 
 /************* RIGHT SIDE *************/
@@ -89,9 +103,9 @@
 }
 
 .productsDesc {
-    /* width: 100%; */
+    width: 100%;
     /* height: 100%; */
-    /* background-color: black; */
+    /* background-color: red; */
 
     display: flex;
     justify-content: space-between;
@@ -102,7 +116,7 @@
 }
 
 .descLeft {
-    width: 30%;
+    width: 50%;
     margin-left: 100px;
     /* background-color: red; */
 
@@ -115,8 +129,19 @@
 }
 
 .descRight {
-    margin-right: 50px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 50px; */
     /* background-color: red; */
+}
+
+.descRight img {
+    height: 50vh;
+    margin-left: 100px;
+    /* width: 100vw; */
 }
 
 /************* ICONS *************/
@@ -201,6 +226,7 @@
 
 .techLeft ul {
     list-style-type: none;
+    /* list-style-type: square; */
     font-weight: bold;
     width: 75%;
     
@@ -213,8 +239,8 @@
 }
 
 .techIcon {
-    font-size: 25px;
-    color: #2AAAE2;
+    font-size: 2.5vh;
+    color: #808080;
 }
 
 /************** TESTIMONIAL SECTION **************/
