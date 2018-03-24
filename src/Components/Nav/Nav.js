@@ -45,7 +45,7 @@ class Nav extends Component {
                     <a href='/contact'>CONTACT</a>
                 </div>
 
-                {/* MOBILE VIEW NAV */}
+                {/************* MOBILE VIEW NAV **************/}
                 <div className='mobileNav' >
                     <div className='mobileLeft' >
                         <Link className="navLink" to="/"><img src={Noblesmall} alt='Noblesmall' className="mobileNoble" /></Link>
@@ -72,7 +72,6 @@ class Nav extends Component {
                                 <Link className="navLink mobile" to='/contact'><MenuItem className='menuText' primaryText="Contact" /></Link>
                                <Link className="navLink mobile" to='/demo'><MenuItem className='menuText' primaryText="Request a Demo" /></Link>
                             </IconMenu>
-
                         </div>
 
 
