@@ -41,6 +41,71 @@ class Home extends Component {
                         <p>The world’s most powerful EBP-based risk assessment and case management tool</p>
                         <a href='/demo'><p className='getStartedMobile'>Get started today</p> </a>
                     </div>
+
+                    <div className='mobileheavyFav'>
+                        <div className='mobilehomeHeader'>
+                            <p>A Heavy Favorite</p>
+                        </div>
+                        <div className='mobilehomeDesc'>
+                            <p>Used by America's leading evidence-based practicing cities and counties:</p>
+                            <ul>
+                                <li>Austin, TX</li>
+                                <li>Kerns County, TX</li>
+                                <li>Big County, TX</li>
+                                <li>Big County, TX</li>
+                            </ul>
+                        </div>
+
+                        <div className='quoteContainer'>
+                            <div className='indvQuote'>
+                                <div className='quoteImg'>
+                                    <p>img</p>
+                                </div>
+                                <div className='quote'>
+                                    <p>I love this software!</p>
+                                    <p>George Washington</p>
+                                    <p>County Chief</p>
+                                </div>
+                            </div>
+                            <div className='indvQuote'>
+                                <div className='quote'>
+                                    <p>I love this software!</p>
+                                    <p>George Washington</p>
+                                    <p>County Chief</p>
+                                </div>
+                                <div className='quoteImg'>
+                                    <p>img</p>
+                                </div>
+                            </div>
+                            <div className='indvQuote'>
+                                <div className='quoteImg'>
+                                    <p>img</p>
+                                </div>
+                                <div className='quote'>
+                                    <p>I love this software!</p>
+                                    <p>George Washington</p>
+                                    <p>County Chief</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='mobilehomeHeader'>
+                            <p>Fast. Accurate. Simple.</p>
+                        </div>
+                        <p>img</p>
+                        <ul>
+                            <li>Dead accurate scoring & ranking</li>
+                            <li>Worldclass support</li>
+                            <li>No onsite training needed</li>
+                        </ul>
+                        <div className='mobilehomeHeader'>
+                            <p>Everything you need.</p>
+                        </div>
+                        <ul>
+                            <li>Assessments</li>
+                            <li>Case Planning</li>
+                            <li>Training??</li>
+                        </ul>
+                    </div>
                     {/* <Footer /> */}
                 </div>
                 {/* Container Div */}
