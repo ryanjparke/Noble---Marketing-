@@ -31,17 +31,18 @@ class Home extends Component {
                         <a href='/demo'><h4 className='getStarted'>Get started today</h4> </a>
                     </div>
                 </div>
-                <div >
-                    <h1></h1>
-                </div>
-
-
-                {/* MOBILE VIEW */}
+                {/************* MOBILE VIEW *************/}
                 <div className='mobileHome'>
-
-
-                </div >
-                {/* <Footer /> */}
+                    <div className='cm'>
+                        <div className='mobileHeader'>
+                            <p>CASE MANAGER</p>
+                        </div>
+                        <p>img</p>
+                        <p>The world’s most powerful EBP-based risk assessment and case management tool</p>
+                        <a href='/demo'><p className='getStartedMobile'>Get started today</p> </a>
+                    </div>
+                    {/* <Footer /> */}
+                </div>
                 {/* Container Div */}
             </div >
         )

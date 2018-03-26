@@ -81,34 +81,85 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mobileHome {
+.getStartedMobile {
     display: none;
 }
-/********** mobile and tablet section **********/
+.cm {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** mobile and tablet section **********/
 @media (max-width:800px) {
     .homeContainer {
-        /* display: none; */
-        margin-top: 70px;
-        width: 100vw;
-        background-color: lightblue;
         background: none;
+        
+    }
+
+    .mobileHome {
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        /* background-color: lightblue; */
+        background: none;
+    }
+
+    .cm {
+        height: 100%;
+        width: 100%;
+        margin-top: 11vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
 
     }
+
+    .cm a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .mobileHeader {
+        font-size: xx-large;
+        font-weight: lighter;
+
+    }
+
+    .getStartedMobile {
+        height: 100%;
+        width: 100%;
+        padding: 5px;
+        /* background-color: red; */
+        border: thin solid black;
+        /* border-radius: 50%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
 
     .welcomeBox {
         display: none;
@@ -116,11 +167,7 @@
     .nobleWhite {
         display: none;
     }
-    .mobileHome {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+    .getStarted {
+        display: none;
     }
-    
-
 }
