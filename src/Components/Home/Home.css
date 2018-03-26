@@ -80,13 +80,17 @@
     transition: .3s;
 }
 
-
+.mobileHome {
+    display: none;
+}
 .getStartedMobile {
     display: none;
 }
 .cm {
     display: none;
 }
+
+
 
 
 
@@ -112,17 +116,17 @@
     }
 
     .mobileHome {
-        top: 0;
+        display: inline;
         width: 100vw;
         height: 100vh;
         /* background-color: lightblue; */
-        background: none;
+        /* background: none; */
     }
 
     .cm {
-        height: 100%;
-        width: 100%;
-        margin-top: 11vh;
+        height: 100vh;
+        width: 100vw;
+        margin-top: 40px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -152,6 +156,40 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .mobileheavyFav {
+        /* height: 100vh;
+        width: 100vw; */
+        /* background-color: #808080; */
+        text-align: left;
+        padding: 14px;
+
+        /* font-size: 10px; */
+    }
+    .mobilehomeHeader {
+        /* background-color: red; */
+        padding-left: 14px;
+        font-size: 20px;
+    }
+    .mobilehomeDesc {
+        padding-left: 14px;
+    }
+    .quoteContainer {
+        /* background-color: #808080; */
+        display: flex;
+        flex-direction: column;
+    }
+    .indvQuote {
+        /* background-color: red; */
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .quoteImg {
+        border: thin solid black;
+        /* border-radius: 50%; */
     }
 
 
