@@ -49,7 +49,43 @@ class About extends Component {
                             <p>member photo</p>
                         </div>
                         <div className='memberName'>
-                            <p>Diana Norris</p>
+                            <p>Aaron Picton</p>
+                            <p>CFO</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                            <p>member photo</p>
+                        </div>
+                        <div className='memberName'>
+                            <p>Bryan Parke</p>
+                            <p>Programmer</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                            <p>member photo</p>
+                        </div>
+                        <div className='memberName'>
+                            <p>Colby Brown</p>
+                            <p>Programmer</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                            <p>member photo</p>
+                        </div>
+                        <div className='memberName'>
+                            <p>Mark Winterman</p>
+                            <p>Senior Developer</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                            <p>member photo</p>
+                        </div>
+                        <div className='memberName'>
+                            <p>Bret Coppess</p>
                             <p>President</p>
                         </div>
                     </div>
@@ -58,44 +94,8 @@ class About extends Component {
                             <p>member photo</p>
                         </div>
                         <div className='memberName'>
-                            <p>Diana Norris</p>
-                            <p>President</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <div className='memberPhoto'>
-                            <p>member photo</p>
-                        </div>
-                        <div className='memberName'>
-                            <p>Diana Norris</p>
-                            <p>President</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <div className='memberPhoto'>
-                            <p>member photo</p>
-                        </div>
-                        <div className='memberName'>
-                            <p>Diana Norris</p>
-                            <p>President</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <div className='memberPhoto'>
-                            <p>member photo</p>
-                        </div>
-                        <div className='memberName'>
-                            <p>Diana Norris</p>
-                            <p>President</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <div className='memberPhoto'>
-                            <p>member photo</p>
-                        </div>
-                        <div className='memberName'>
-                            <p>Diana Norris</p>
-                            <p>President</p>
+                            <p>Jeremy Carranza</p>
+                            <p>Trainer</p>
                         </div>
                     </div>
                     <div className='member'>

@@ -95,19 +95,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***** mobile and tablet section **********/
 @media (max-width:800px) {
     .homeContainer {
@@ -119,14 +106,13 @@
         display: inline;
         width: 100vw;
         height: 100vh;
-        /* background-color: lightblue; */
-        /* background: none; */
+        /* background-color: #2AAAE2; */
     }
 
     .cm {
-        height: 100vh;
+        height: 90%;
         width: 100vw;
-        margin-top: 40px;
+        margin-top: 60px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -143,7 +129,13 @@
     .mobileHeader {
         font-size: xx-large;
         font-weight: lighter;
+    }
 
+    .mobileImg {
+        width: 95vw;
+        height: 80%;
+        background-color: lightblue;
+        border: thin solid black;
     }
 
     .getStartedMobile {
@@ -188,8 +180,14 @@
     }
 
     .quoteImg {
+        height: 120px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightblue;
         border: thin solid black;
-        /* border-radius: 50%; */
+        border-radius: 50%;
     }
 
 

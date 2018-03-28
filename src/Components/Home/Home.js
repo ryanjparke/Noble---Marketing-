@@ -37,7 +37,10 @@ class Home extends Component {
                         <div className='mobileHeader'>
                             <p>CASE MANAGER</p>
                         </div>
-                        <p>img</p>
+                        <div className='mobileImg'>
+                            <p>img</p>
+                            {/* <img src={Mountains}/> */}
+                        </div>
                         <p>The world’s most powerful EBP-based risk assessment and case management tool</p>
                         <a href='/demo'><p className='getStartedMobile'>Get started today</p> </a>
                     </div>
@@ -62,14 +65,14 @@ class Home extends Component {
                                     <p>img</p>
                                 </div>
                                 <div className='quote'>
-                                    <p>I love this software!</p>
+                                    <p>"I love this software!"</p>
                                     <p>George Washington</p>
                                     <p>County Chief</p>
                                 </div>
                             </div>
                             <div className='indvQuote'>
                                 <div className='quote'>
-                                    <p>I love this software!</p>
+                                    <p>"I love this software!"</p>
                                     <p>George Washington</p>
                                     <p>County Chief</p>
                                 </div>
@@ -82,7 +85,7 @@ class Home extends Component {
                                     <p>img</p>
                                 </div>
                                 <div className='quote'>
-                                    <p>I love this software!</p>
+                                    <p>"I love this software!"</p>
                                     <p>George Washington</p>
                                     <p>County Chief</p>
                                 </div>
@@ -91,7 +94,9 @@ class Home extends Component {
                         <div className='mobilehomeHeader'>
                             <p>Fast. Accurate. Simple.</p>
                         </div>
-                        <p>img</p>
+                        <div className='2mobileImg'>
+                            <p>img</p>
+                        </div>
                         <ul>
                             <li>Dead accurate scoring & ranking</li>
                             <li>Worldclass support</li>
@@ -105,6 +110,15 @@ class Home extends Component {
                             <li>Case Planning</li>
                             <li>Training??</li>
                         </ul>
+                    </div>
+                    <div className='homeEnd'>
+                        <div className='mobilehomeHeader'>
+                            <p>Request a demo today.</p>
+                        </div>
+                        <div className='homeInput'>
+                            
+                                <input type="text" placeholder="name"/>
+                        </div>
                     </div>
                     {/* <Footer /> */}
                 </div>
