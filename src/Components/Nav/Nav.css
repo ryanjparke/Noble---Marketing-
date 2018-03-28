@@ -62,9 +62,19 @@
 
 @media (max-width:800px) {
     .navContainer {
-        /* display: none; */
-        /* background-color: rgba(50, 47, 47, 0.47); */
-        /* width: 100vw; */
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        top: 0;
+        height: 10vh;
+        width: 100vw;
+        transition: .6s;
+        z-index: 10;
+        transition-delay: .25s;
+        /* background-color: rgba(35, 34, 34, 0.77); */
+        background-color: #808080;
+        /* background-color: black; */
+        opacity: 1;
         
     }
     .navLeft {
@@ -73,19 +83,21 @@
     .navRight {
         display: none;
     }
-    .mobileNav {
+    /* .mobileNav {
         display: flex;
         position: fixed;
         justify-content: space-between;
-        /* align-items: center; */
+        align-items: center;
         top: 0;
         width: 100vw;
         transition: .6s;
         z-index: 10;
         transition-delay: .25s;
-        /* background-color: rgba(35, 34, 34, 0.77); */
+        background-color: rgba(35, 34, 34, 0.77);
         background-color: #808080;
-    }
+        background-color: black;
+        opacity: 1;
+    } */
 
     .mobileLeft {
         display: flex;

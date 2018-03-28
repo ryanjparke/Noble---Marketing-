@@ -46,7 +46,7 @@ class Nav extends Component {
                 </div>
 
                 {/************* MOBILE VIEW NAV **************/}
-                <div className='mobileNav' >
+                {/* <div className='mobileNav' > */}
                     <div className='mobileLeft' >
                         <Link className="navLink" to="/"><img src={Noblesmall} alt='Noblesmall' className="mobileNoble" /></Link>
                     </div>
@@ -94,7 +94,7 @@ class Nav extends Component {
 
 
 
-                </div>
+                {/* </div> */}
             </div>
         )
     }
