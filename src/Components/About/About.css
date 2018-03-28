@@ -12,8 +12,8 @@
 
     height: 30vh;
     width: 100vw;
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
 
     display: flex;
     align-items: center;
@@ -26,5 +26,67 @@
 }
 
 .storyContainer {
-    height: 58vh;
+    /* height: 58vh; */
+}
+
+.mobileTeam {
+    display: none;
+}
+
+
+/************ MOBILE *************/
+@media (max-width:800px) {
+    .AboutContainer {
+        height: 100vh;
+        width: 100vw;
+        display: inline;
+        /* background-color: lightblue; */
+    }
+    .aboutHeader {
+        margin-top: 11vh;
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        text-align: left;
+        background-color: lightblue;
+    }
+
+    .aboutHeader p {
+        font-size: 20px;
+        font-weight: lighter;
+        margin-left: 12px;
+    }
+    .storyContainer {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        background-color: lightblue;
+    }
+
+    .storyContainer p {
+        text-align: left;
+        font-size: 14px;
+        margin-left: 12px;
+
+    }
+
+    .mobileTeam {
+        width: 100vw;
+        margin-bottom: 100px;
+        display: inline;
+        /* background-color: lightblue; */
+    }
+    .member {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* background-color: red; */
+        border-bottom: thin solid black;
+    }
+
+    .memberName {
+        height: 100%;
+    }
 }
