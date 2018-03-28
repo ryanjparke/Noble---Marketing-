@@ -30,7 +30,6 @@ class About extends Component {
                 <div className="storyContainer" >
                     <p>Noble was founded in the early summer of 2012 by a close-knit team of co-workers who shared a common vision: help improve the way corrections assesses and treats the criminogenic needs of offenders.  Our goal is very simple; we want to have the best assessment and case planning tools in the country.  We do this by maintaining close relationships with assessment authors, using cutting edge software development practices, and most importantly, listening to our users</p>
                 </div>
-                
                 {/************ MOBILE VIEW *************/}
                 <div className='aboutHeader'>
                     <p>THE TEAM</p>

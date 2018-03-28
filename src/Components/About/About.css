@@ -40,7 +40,7 @@
         height: 100vh;
         width: 100vw;
         display: inline;
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
     .aboutHeader {
         margin-top: 11vh;
@@ -74,7 +74,7 @@
         width: 100vw;
         margin-bottom: 100px;
         display: inline;
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
     .member {
         height: 100%;
@@ -82,7 +82,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        background-color: red;
+        /* background-color: red; */
         border-bottom: thin solid black;
     }
 
