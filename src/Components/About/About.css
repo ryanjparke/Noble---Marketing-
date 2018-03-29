@@ -43,16 +43,16 @@
         /* background-color: lightblue; */
     }
     .aboutHeader {
-        margin-top: 11vh;
+        margin-top: 10vh;
         height: 100%;
         width: 100vw;
         display: flex;
         text-align: left;
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
 
     .aboutHeader p {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: lighter;
         margin-left: 12px;
     }
@@ -60,7 +60,7 @@
         height: 100%;
         width: 100vw;
         display: flex;
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
 
     .storyContainer p {
@@ -72,18 +72,30 @@
 
     .mobileTeam {
         width: 100vw;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         display: inline;
         /* background-color: lightblue; */
     }
     .member {
         height: 100%;
         width: 100vw;
+        margin-top: 10vh;
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         justify-content: space-around;
+        /* padding-right: 50px; */
         /* background-color: red; */
-        border-bottom: thin solid black;
+        /* border-bottom: thin solid black; */
+    }
+
+    .memberPhoto {
+        height: 150px;
+        width: 150px;
+        border: thin solid black;
+        border-radius: 50%;
+        background-color:#2AAAE2;
     }
 
     .memberName {

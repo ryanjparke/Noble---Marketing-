@@ -31,13 +31,13 @@ class About extends Component {
                     <p>Noble was founded in the early summer of 2012 by a close-knit team of co-workers who shared a common vision: help improve the way corrections assesses and treats the criminogenic needs of offenders.  Our goal is very simple; we want to have the best assessment and case planning tools in the country.  We do this by maintaining close relationships with assessment authors, using cutting edge software development practices, and most importantly, listening to our users</p>
                 </div>
                 {/************ MOBILE VIEW *************/}
-                <div className='aboutHeader'>
+                <div className='mobilehomeHeader'>
                     <p>THE TEAM</p>
                 </div>
                 <div className='mobileTeam'>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>member photo</p>
+                            <p>photo</p>
                         </div>
                         <div className='memberName'>
                             <p>Diana Norris</p>
@@ -46,7 +46,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>member photo</p>
+                            <p>photo</p>
                         </div>
                         <div className='memberName'>
                             <p>Aaron Picton</p>
@@ -55,43 +55,43 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>member photo</p>
-                        </div>
-                        <div className='memberName'>
-                            <p>Bryan Parke</p>
-                            <p>Programmer</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <div className='memberPhoto'>
-                            <p>member photo</p>
-                        </div>
-                        <div className='memberName'>
-                            <p>Colby Brown</p>
-                            <p>Programmer</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <div className='memberPhoto'>
-                            <p>member photo</p>
+                            <p>photo</p>
                         </div>
                         <div className='memberName'>
                             <p>Mark Winterman</p>
-                            <p>Senior Developer</p>
+                            <p>Engineer</p>
                         </div>
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>member photo</p>
+                            <p>photo</p>
+                        </div>
+                        <div className='memberName'>
+                            <p>Colby Brown</p>
+                            <p>Engineer</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                            <p>photo</p>
+                        </div>
+                        <div className='memberName'>
+                            <p>Bryan Parke</p>
+                            <p>Engineer</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                            <p>photo</p>
                         </div>
                         <div className='memberName'>
                             <p>Bret Coppess</p>
-                            <p>President</p>
+                            <p>Engineer</p>
                         </div>
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>member photo</p>
+                            <p>photo</p>
                         </div>
                         <div className='memberName'>
                             <p>Jeremy Carranza</p>
@@ -100,11 +100,11 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>member photo</p>
+                            <p>photo</p>
                         </div>
                         <div className='memberName'>
-                            <p>Diana Norris</p>
-                            <p>President</p>
+                            <p>Ryan Parke</p>
+                            <p>Support Engineer</p>
                         </div>
                     </div>
 

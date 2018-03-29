@@ -94,7 +94,7 @@ class Home extends Component {
                         <div className='mobilehomeHeader'>
                             <p>Fast. Accurate. Simple.</p>
                         </div>
-                        <div className='2mobileImg'>
+                        <div className='mobileImgtwo'>
                             <p>img</p>
                         </div>
                         <ul>
@@ -117,8 +117,12 @@ class Home extends Component {
                         </div>
                         <div className='homeInput'>
                             
-                                <input type="text" placeholder="name"/>
+                                <input type="text" placeholder="Name"/>
+                                <input type="text" placeholder="Email"/>
                         </div>
+                        <div className='mobileSubmit'>
+                            <p>Submit</p>
+                            </div>
                     </div>
                     {/* <Footer /> */}
                 </div>

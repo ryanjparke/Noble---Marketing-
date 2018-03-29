@@ -1,3 +1,31 @@
-.ContactContainer {
+.contactContainer {
     margin-top: 10vh;
+}
+
+
+/*************** MOBILE VIEW ***************/
+
+@media (max-width:800px) {
+    .contactContainer {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* text-align: left; */
+    }
+
+    .contactHeader {
+        padding-left: 14px;
+        font-size: 30px;
+        font-weight: lighter;
+        /* margin-top: 10vh; */
+        height: 100%;
+        width: 80%;
+        text-align: left;
+    }
+    .ourInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
