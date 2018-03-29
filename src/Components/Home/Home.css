@@ -134,7 +134,7 @@
     .mobileImg {
         width: 95vw;
         height: 80%;
-        background-color: lightblue;
+        background-color: #2AAAE2;
         border: thin solid black;
     }
 
@@ -185,7 +185,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: lightblue;
+        background-color: #2AAAE2;
         border: thin solid black;
         border-radius: 50%;
     }
