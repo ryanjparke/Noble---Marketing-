@@ -52,7 +52,10 @@
     transition: .25s;
 }
 
-.mobileNav {
+.mobileLeft {
+    display: none;
+}
+.mobileRight {
     display: none;
 }
 

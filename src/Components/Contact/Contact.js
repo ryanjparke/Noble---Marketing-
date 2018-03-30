@@ -19,10 +19,20 @@ class Contact extends Component {
     // }
     render() {
         return (
-            <div className='ContactContainer'>
+            <div className='contactContainer'>
                 <Nav />
-                <h1> CONTACT US </h1>
-
+                <div className='contactHeader'>
+                    <p>GET IN TOUCH</p>
+                </div>
+                <div className='ourInfo'>
+                    <p>OUR PHONE</p>
+                    <p>OUR EMAIL</p>
+                </div>
+                <div className='theirInfo'>
+                    <p>Their Name</p>
+                    <p>Their Message</p>
+                    <h5>SEND</h5>
+                </div>
                 <Footer />
 
             </div >

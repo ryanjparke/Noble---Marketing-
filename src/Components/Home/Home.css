@@ -163,6 +163,8 @@
         /* background-color: red; */
         padding-left: 14px;
         font-size: 20px;
+        text-align: left;
+        /* font-weight: lighter; */
     }
     .mobilehomeDesc {
         padding-left: 14px;
@@ -188,6 +190,39 @@
         background-color: #2AAAE2;
         border: thin solid black;
         border-radius: 50%;
+    }
+
+    .mobileImgtwo {
+        height: 30vh;
+        width: 100%;
+        border: thin solid black;
+
+        display: flex;
+        justify-content: center;
+        background-color: #2AAAE2;
+    }
+
+    .homeEnd {
+        width: 100vw;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 4vh;
+
+    }
+
+    .mobileSubmit {
+        width: 30%;
+        /* height: 4vh; */
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        border: thin solid black;
+        /* border-radius: 10%; */
+        
     }
 
 
