@@ -6,6 +6,13 @@ import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 
 import Nobleblue from './../../assets/Nobleblue.png';
+import PrincessDiana from './../../assets/PrincessDiana.jpg';
+import Markalf from './../../assets/markalf.jpg';
+import BryanS from './../../assets/BryanS.jpg';
+import kobebrown from './../../assets/kobebrown.jpg';
+import BretSheeran from './../../assets/BretSheeran.jpg';
+import aaronA from './../../assets/aaronA.jpeg';
+import RyanR from './../../assets/RyanR.jpg';
 
 
 
@@ -37,16 +44,16 @@ class About extends Component {
                 <div className='mobileTeam'>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                            <img src={PrincessDiana} />
                         </div>
                         <div className='memberName'>
-                            <p>Diana Norris</p>
+                            <p>Princess Diana Norris</p>
                             <p>President</p>
                         </div>
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                        <img src={aaronA} />
                         </div>
                         <div className='memberName'>
                             <p>Aaron Picton</p>
@@ -55,37 +62,37 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                        <img src={Markalf} />
                         </div>
                         <div className='memberName'>
-                            <p>Mark Winterman</p>
+                            <p>Mark The Winterman Grey</p>
                             <p>Engineer</p>
                         </div>
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                        <img src={kobebrown} />
                         </div>
                         <div className='memberName'>
-                            <p>Colby Brown</p>
+                            <p>KOBE Brown</p>
                             <p>Engineer</p>
                         </div>
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                        <img src={BryanS} />
                         </div>
                         <div className='memberName'>
-                            <p>Bryan Parke</p>
+                            <p>Bryan Shwarzeneger</p>
                             <p>Engineer</p>
                         </div>
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                        <img src={BretSheeran} />
                         </div>
                         <div className='memberName'>
-                            <p>Bret Coppess</p>
+                            <p>Bret Sheeran</p>
                             <p>Engineer</p>
                         </div>
                     </div>
@@ -100,17 +107,17 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                        <img src={RyanR} />
                         </div>
                         <div className='memberName'>
-                            <p>Ryan Parke</p>
+                            <p>Ryan Reynolds</p>
                             <p>Support Engineer</p>
                         </div>
                     </div>
 
                 </div>
                 {/**** CONTAINER DIV ****/}
-                <Footer />
+                {/* <Footer /> */}
             </div >
         )
     }

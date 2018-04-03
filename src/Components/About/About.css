@@ -25,9 +25,9 @@
     height: 20vh;
 }
 
-.storyContainer {
-    /* height: 58vh; */
-}
+/* .storyContainer {
+    /* height: 58vh; 
+} */
 
 .mobileTeam {
     display: none;
@@ -84,7 +84,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        justify-content: space-around;
+        justify-content: space-between;
         /* padding-right: 50px; */
         /* background-color: red; */
         /* border-bottom: thin solid black; */
@@ -96,6 +96,12 @@
         border: thin solid black;
         border-radius: 50%;
         background-color:#2AAAE2;
+    }
+
+    .memberPhoto img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
     }
 
     .memberName {

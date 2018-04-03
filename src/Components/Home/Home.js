@@ -7,6 +7,7 @@ import axios from 'axios';
 
 import Noblewhite from './../../assets/Noblewhite.png';
 import Mountains from './../../assets/Mountains.jpg';
+import MobileCM from './../../assets/MobileCM.svg';
 
 
 class Home extends Component {
@@ -38,7 +39,7 @@ class Home extends Component {
                             <p>CASE MANAGER</p>
                         </div>
                         <div className='mobileImg'>
-                            <p>img</p>
+                            <img src={ MobileCM } />
                             {/* <img src={Mountains}/> */}
                         </div>
                         <p>The world’s most powerful EBP-based risk assessment and case management tool</p>

@@ -132,18 +132,22 @@
     }
 
     .mobileImg {
-        width: 95vw;
-        height: 80%;
-        background-color: #2AAAE2;
-        border: thin solid black;
+        /* width: 95vw; */
+        /* height: 70%; */
+        /* background-color: #2AAAE2; */
+        /* border: thin solid black; */
+    }
+    .mobileImg img {
+        width: 100vw;
+        /* height: 80%; */
     }
 
     .getStartedMobile {
         height: 100%;
         width: 100%;
         padding: 5px;
-        /* background-color: red; */
-        border: thin solid black;
+        /* background-color: #2AAAE2; */
+        border: 1px solid black;
         /* border-radius: 50%; */
         display: flex;
         justify-content: center;
