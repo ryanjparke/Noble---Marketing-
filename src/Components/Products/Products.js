@@ -175,6 +175,44 @@ class Products extends Component {
                     </div>
                 </div>
                 <Footer />
+                {/********* MOBILE VIEW *********/}
+                <div className='mobileproductstopHeader'>
+                    <p>PRODUCTS/SERVICES</p>
+                </div>
+                <div className='quadSection'>
+                    <div className='topTwo'>
+                        <div className='quadSingle'>
+                            <p>Assessments</p>
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <div className='quadSingle'>
+                            <p>Training</p>
+                            <p>icon</p>
+                        </div>
+                    </div>
+                    <div className='bottomTwo'>
+                        <div className='quadSingle'>
+                            <p>Extensions</p>
+                            <p>icon</p>
+                        </div>
+                        <div className='quadSingle'>
+                            <p>Integrations</p>
+                            <p>icon</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Assessments</p>
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Training</p>
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Extensions</p>
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Integration</p>
+                </div>
                 {/* container div */}
             </div >
         )

@@ -4,14 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient(to bottom right, #2AAAE2, #BABDBB);
+    /* background: black; */
+    /* background: linear-gradient(to bottom right, #2AAAE2, #BABDBB); */
 }
 
 .modalWindow {
     margin-top: 15vh;
     margin-bottom: 6vh;
     min-height: 700px;
-    width: 60vw;
+    width: 90vw;
     /* height: 85vh; */
     max-width: 900px;
     background: white;
