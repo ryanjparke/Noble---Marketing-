@@ -187,7 +187,7 @@ class Products extends Component {
                         </div>
                         <div className='quadSingle'>
                             <p>Training</p>
-                            <p>icon</p>
+                            <i class="fas fa-users"></i>
                         </div>
                     </div>
                     <div className='bottomTwo'>
@@ -197,7 +197,7 @@ class Products extends Component {
                         </div>
                         <div className='quadSingle'>
                             <p>Integrations</p>
-                            <p>icon</p>
+                            <i class="fas fa-link"></i>
                         </div>
                     </div>
                 </div>

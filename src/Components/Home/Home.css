@@ -38,10 +38,10 @@
     align-items: center;
     flex-direction: column;
 
-    font-family: "Gotham SSm A, SSm B";
-    font-style: normal;
+    /* font-family: "Gotham SSm A, SSm B"; */
+    /* font-style: normal; */
     font-weight: lighter;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
 .innerWelcome a {
