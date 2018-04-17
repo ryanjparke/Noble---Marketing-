@@ -279,18 +279,22 @@
     }
 
     .mobileproductstopHeader {
+        width: 100vw;
         margin-top: 250px;
         padding-left: 14px;
         text-align: left;
         font-size: xx-large;
         font-weight: lighter;
-        /* background-color: white; */
+        /* background-color: lightblue; */
     }
 
     .mobileproductsHeader {
+        width: 100vw;
+        text-align: left;
         padding-left: 14px;
         font-size: xx-large;
         font-weight: lighter;
+        /* background-color: lightblue; */
     }
 
     .quadSection {
@@ -298,7 +302,7 @@
         width: 100vw;
         /* display: flex; */
         flex-direction: column;
-        /* background-color: red; */
+        /* background-color: lightblue; */
     }
 
     .topTwo {
@@ -324,7 +328,11 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        justify-content: center;
         border: thin solid black;
+        font-weight: lighter;
         /* background-color: blue; */
     }
+    
 }

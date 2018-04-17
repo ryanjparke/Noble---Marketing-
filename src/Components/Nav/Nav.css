@@ -28,7 +28,7 @@
 .navLeft {
     display: flex;
     justify-content: space-around;
-     font-family: "Gotham SSm A, SSm B";
+     /* font-family: "Gotham SSm A, SSm B"; */
     font-style: normal;
     font-weight: 300; 
     
@@ -41,7 +41,7 @@
     color: white;
     font-size: 8.5pt;
     letter-spacing: 3px;
-    font-family: "Gotham SSm A, SSm B";
+    /* font-family: "Gotham SSm A, SSm B"; */
     font-style: normal;
     font-weight: 200; 
 
