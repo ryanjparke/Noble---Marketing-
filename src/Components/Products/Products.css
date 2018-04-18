@@ -252,16 +252,27 @@
     font-size: 32px;
 }
 
+.mobileproductstopHeader {
+    display: none;
+}
+.mobileproductsHeader {
+    display: none;
+}
+.quadSection {
+    display: none;
+}
+
 /************* MOBILE VIEW *************/
 @media (max-width:800px) {
     .productsContainer {
+        display: flex;
         height: 100vh;
         width: 100vw;
         display: flex;
         justify-content: space-around;
         align-items: left;
         flex-direction: column;
-        /* margin-top: 100px; */
+        margin-top: 60px;
         /* background-color: red; */
     }
     .productsIntro {
@@ -279,8 +290,9 @@
     }
 
     .mobileproductstopHeader {
+        display: flex;
         width: 100vw;
-        margin-top: 250px;
+        /* margin-top: 250px; */
         padding-left: 14px;
         text-align: left;
         font-size: xx-large;
@@ -289,6 +301,7 @@
     }
 
     .mobileproductsHeader {
+        display: flex;
         width: 100vw;
         text-align: left;
         padding-left: 14px;
@@ -298,6 +311,7 @@
     }
 
     .quadSection {
+        display: flex;
         /* height: 40vh; */
         width: 100vw;
         /* display: flex; */
@@ -330,7 +344,7 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        border: thin solid black;
+        /* border: thin solid black; */
         font-weight: lighter;
         /* background-color: blue; */
     }

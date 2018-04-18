@@ -8,6 +8,21 @@ import Footer from '../Footer/Footer';
 import Productsback from './../../assets/Productsback.jpg';
 import Desktop from './../../assets/Desktop.png';
 
+import { Tabs, Tab } from 'material-ui/Tabs';
+import SwipeableViews from 'react-swipeable-views';
+
+
+const styles = {
+    headline: {
+        fontSize: 24,
+        paddingTop: 16,
+        marginBottom: 12,
+        fontWeight: 400,
+    },
+    slide: {
+        padding: 10
+    },
+};
 
 
 class Products extends Component {
@@ -174,7 +189,7 @@ class Products extends Component {
                         <h1>CONTENT</h1>
                     </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
                 {/********* MOBILE VIEW *********/}
                 <div className='mobileproductstopHeader'>
                     <p>PRODUCTS/SERVICES</p>
@@ -193,7 +208,7 @@ class Products extends Component {
                     <div className='bottomTwo'>
                         <div className='quadSingle'>
                             <p>Extensions</p>
-                            <p>icon</p>
+                            <i class="far fa-thumbs-up"></i>
                         </div>
                         <div className='quadSingle'>
                             <p>Integrations</p>
@@ -203,6 +218,28 @@ class Products extends Component {
                 </div>
                 <div className='mobileproductsHeader'>
                     <p>Assessments</p>
+                </div>
+                <div className='mobileAssessmentContent'>
+                    <Tabs
+                        onChange={this.handleChange}
+                        value={this.state.slideIndex}>
+                        <Tab label="JUVENILE" value={0} />
+                        <Tab label="ADULT" value={1} />
+                        <Tab label="THREE" value={2} />
+                    </Tabs>
+                    <SwipeableViews
+                        index={this.state.slideIndex} onChangeIndex={this.handleChange}>
+                        <div>
+                            <h2 style={styles.headline}>Juvenile Tools</h2>
+                            Swipe to see the next slide.<br />
+                        </div>
+                        <div style={styles.slide}>
+                            <h2 style={styles.headline}>Adult Tools</h2>
+                                </div>
+                        <div style={styles.slide}>
+                        <h2 style={styles.headline}>Something Else Tools</h2>
+                                </div>
+                    </SwipeableViews>
                 </div>
                 <div className='mobileproductsHeader'>
                     <p>Training</p>
