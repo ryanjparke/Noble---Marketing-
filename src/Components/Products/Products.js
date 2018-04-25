@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
+import Controlled from '../Controlled Tab/Controlled';
 
 import Productsback from './../../assets/Productsback.jpg';
 import Desktop from './../../assets/Desktop.png';
@@ -219,7 +220,8 @@ class Products extends Component {
                 <div className='mobileproductsHeader'>
                     <p>Assessments</p>
                 </div>
-                <div className='mobileAssessmentContent'>
+                <Controlled />
+                {/* <div className='mobileAssessmentContent'>
                     <Tabs
                         onChange={this.handleChange}
                         value={this.state.slideIndex}>
@@ -240,7 +242,7 @@ class Products extends Component {
                         <h2 style={styles.headline}>Something Else Tools</h2>
                                 </div>
                     </SwipeableViews>
-                </div>
+                </div> */}
                 <div className='mobileproductsHeader'>
                     <p>Training</p>
                 </div>
