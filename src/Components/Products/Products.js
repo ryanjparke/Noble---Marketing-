@@ -220,8 +220,10 @@ class Products extends Component {
                 <div className='mobileproductsHeader'>
                     <p>Assessments</p>
                 </div>
-                <Controlled />
-                {/* <div className='mobileAssessmentContent'>
+                <div className='mobileAssessmentContent'>
+                    <Controlled />
+                </div>
+                {/* 
                     <Tabs
                         onChange={this.handleChange}
                         value={this.state.slideIndex}>
