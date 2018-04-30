@@ -39,7 +39,7 @@ class About extends Component {
                 </div>
                 {/************ MOBILE VIEW *************/}
                 <div className='mobilehomeHeader'>
-                    <p>THE TEAM</p>
+                    <p>MEET THE TEAM</p>
                 </div>
                 <div className='mobileTeam'>
                     <div className='member'>

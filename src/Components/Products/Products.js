@@ -199,21 +199,29 @@ class Products extends Component {
                     <div className='topTwo'>
                         <div className='quadSingle'>
                             <p>Assessments</p>
+                            <div className='quadIcon'>
                             <i class="fas fa-clipboard-check"></i>
+                            </div>
                         </div>
                         <div className='quadSingle'>
                             <p>Training</p>
+                            <div className='quadIcon'>
                             <i class="fas fa-users"></i>
+                            </div>
                         </div>
                     </div>
                     <div className='bottomTwo'>
                         <div className='quadSingle'>
                             <p>Extensions</p>
+                            <div className='quadIcon'>
                             <i class="far fa-thumbs-up"></i>
+                            </div>
                         </div>
                         <div className='quadSingle'>
                             <p>Integrations</p>
+                            <div className='quadIcon'>
                             <i class="fas fa-link"></i>
+                            </div>
                         </div>
                     </div>
                 </div>

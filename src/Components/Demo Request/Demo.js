@@ -38,9 +38,10 @@ class Demo extends Component {
             <div className='demoContainer'>
                 <Nav />
                 <div className='modalWindow' >
-                    <h2>Request a demo</h2>
+                    <div className='demoHeader'>
+                        <p>Request a demo</p>
+                    </div>
                     <div className='requestInfo' >
-
                         <div>
                             <TextField
                                 hintText="Name"

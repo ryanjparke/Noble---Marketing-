@@ -12,6 +12,7 @@
 
     height: 30vh;
     width: 100vw;
+    /* font-size: 12px; */
     /* background-color: black; */
     /* color: white; */
 
@@ -48,12 +49,14 @@
         width: 100vw;
         display: flex;
         text-align: left;
+        /* font-size: 8px; */
         /* background-color: lightblue; */
     }
 
     .aboutHeader p {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: lighter;
+        color: #808080;
         margin-left: 12px;
     }
     .storyContainer {
@@ -66,6 +69,7 @@
     .storyContainer p {
         text-align: left;
         font-size: 14px;
+        /* color: #808080; */
         margin-left: 12px;
 
     }
@@ -80,7 +84,7 @@
     .member {
         height: 100%;
         width: 100vw;
-        margin-top: 10vh;
+        margin-top: 8vh;
         display: flex;
         flex-direction: row;
         align-items: center;

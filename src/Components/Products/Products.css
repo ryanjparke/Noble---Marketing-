@@ -268,7 +268,7 @@
 /************* MOBILE VIEW *************/
 @media (max-width:800px) {
     .productsContainer {
-        display: flex;
+        display: inline;
         height: 100vh;
         width: 100vw;
         align-items: left;
@@ -286,25 +286,25 @@
     }
 
     .mobileproductstopHeader {
-        display: inline-flex;
+        display: flex;
         height: 100%;
-        width: 100vw;
-        /* margin-top: 250px; */
+        /* width: 100vw; */
+        margin-top: 70px;
         text-align: left;
-        font-size: xx-large;
-        font-weight: lighter;
-        background-color: lightblue;
+        font-size: x-large;
+        /* font-weight: lighter; */
+        /* background-color: lightblue; */
     }
 
     .mobileproductsHeader {
-        display: inline-flex;
-        width: 100vw;
+        display: flex;
+        width: 80%;
         text-align: left;
-        margin-bottom: 100px;
-        padding-left: 14px;
-        font-size: xx-large;
+        /* margin-bottom: 100px; */
+        margin-left: 12px;
+        font-size: x-large;
         font-weight: lighter;
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
 
     .quadSection {
@@ -322,6 +322,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        border-bottom: thin solid black;
         /* background-color: blue; */
     }
     .bottomTwo {
@@ -334,7 +335,7 @@
     }
 
     .quadSingle {
-        margin-top: 8px;
+        /* margin-top: 8px; */
         width: 40%;
         display: flex;
         flex-direction: column;
@@ -344,6 +345,11 @@
         /* border: thin solid black; */
         font-weight: lighter;
         /* background-color: blue; */
+    }
+
+    .quadIcon {
+        font-size: 6vh;
+        color: #2AAAE2;
     }
 
     .mobileAssessmentContent {
