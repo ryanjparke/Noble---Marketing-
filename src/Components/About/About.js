@@ -47,7 +47,7 @@ class About extends Component {
                             <img src={PrincessDiana} />
                         </div>
                         <div className='memberName'>
-                            <p>Princess Diana Norris</p>
+                            <p>Diana Norris</p>
                             <p>President</p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ class About extends Component {
                         <img src={Markalf} />
                         </div>
                         <div className='memberName'>
-                            <p>Mark The Winterman Grey</p>
+                            <p>Mark Winterman</p>
                             <p>Engineer</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ class About extends Component {
                         <img src={kobebrown} />
                         </div>
                         <div className='memberName'>
-                            <p>KOBE Brown</p>
+                            <p>Colby Brown</p>
                             <p>Engineer</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ class About extends Component {
                         <img src={BryanS} />
                         </div>
                         <div className='memberName'>
-                            <p>Bryan Shwarzeneger</p>
+                            <p>Bryan Parke</p>
                             <p>Engineer</p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ class About extends Component {
                         <img src={BretSheeran} />
                         </div>
                         <div className='memberName'>
-                            <p>Bret Sheeran</p>
+                            <p>Bret Coppess</p>
                             <p>Engineer</p>
                         </div>
                     </div>
@@ -110,14 +110,23 @@ class About extends Component {
                         <img src={RyanR} />
                         </div>
                         <div className='memberName'>
-                            <p>Ryan Reynolds</p>
+                            <p>Ryan Parke</p>
+                            <p>Support Engineer</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                        <div className='memberPhoto'>
+                        <img src={RyanR} />
+                        </div>
+                        <div className='memberName'>
+                            <p>Brent Norris</p>
                             <p>Support Engineer</p>
                         </div>
                     </div>
 
                 </div>
                 {/**** CONTAINER DIV ****/}
-                {/* <Footer /> */}
+                <Footer />
             </div >
         )
     }

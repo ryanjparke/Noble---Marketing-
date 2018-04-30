@@ -1,14 +1,12 @@
 .footerContainer {
-    height: 50px;
+    /* height: 100%; */
     width: 100vw;
     background-color: #353535;
 
     display: flex;
-    justify-content: space-around;
-
-    bottom: 0;
-    z-index: 10;
-    position: fixed;
+    /* bottom: 0; */
+    /* z-index: 10; */
+    /* position: fixed; */
 
     box-shadow: 0 -2px 4px -1px rgba(0, 0, 0, .2), 0 -4px 5px 0 rgba(0, 0, 0, .14), 0 -1px 10px 0 rgba(0, 0, 0, .12);
 
@@ -18,8 +16,8 @@
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    bottom: 0;
-    z-index: 10;
+    /* bottom: 0; */
+    /* z-index: 10; */
 
     background: url('./../../assets/Noble Pattern Footer.svg');
     background-repeat: repeat;
@@ -31,7 +29,7 @@
 /************** LEFT SECTION *************/
 
 .footerLeft {
-    /* height: 6vh; */
+    height: 6vh;
     width: 8vw;
     /* background-color: red; */
 
@@ -60,7 +58,6 @@
 }
 
 .chatIcon {
-
     height: 2vh;
 }
 
@@ -87,7 +84,6 @@
 /************** RIGHT SECTION *************/
 
 .rightFooter {
-    /* height: 5vh; */
     width: 8vw;
     font-size: 3vh;
 
@@ -95,8 +91,6 @@
     align-items: center;
     justify-content: space-around;
     
-    /* background-color: red; */
-    /* margin-right: 6vw; */
 }
 
 .rightFooter a {
@@ -108,4 +102,31 @@
 .rightFooter a:hover {
     color: #2AAAE2;
     transition: .3s;
+}
+
+/************ MOBILE *************/
+@media (max-width:800px) {
+    .footerContainer {
+        display: flex;
+        height: 8vh;
+    }
+    .footerOverlay {
+        display: flex;
+        height: 8vh;
+    }
+    .footerLeft {
+        width: 30%;
+        height: 100%;
+        background-color: red;
+
+        font-size: 8px;
+    }
+    .middleFooter {
+        /* width: 1.33%; */
+        background-color: blue;
+    }
+    .rightFooter {
+        width: 20.33%;
+
+    }
 }
