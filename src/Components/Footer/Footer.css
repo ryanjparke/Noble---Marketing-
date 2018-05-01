@@ -112,21 +112,25 @@
     }
     .footerOverlay {
         display: flex;
+        justify-content: space-between;
         height: 8vh;
     }
     .footerLeft {
-        width: 30%;
+        width: 40%;
         height: 100%;
-        background-color: red;
+        /* background-color: red; */
 
-        font-size: 8px;
+        font-size: 12px;
     }
     .middleFooter {
+        display: none;
         /* width: 1.33%; */
         background-color: blue;
     }
     .rightFooter {
-        width: 20.33%;
+        font-size: 4vh;
+        width: 30%;
+        /* background-color: yellow; */
 
     }
 }
