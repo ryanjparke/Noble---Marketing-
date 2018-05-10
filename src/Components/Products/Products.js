@@ -8,6 +8,7 @@ import Controlled from '../Controlled Tab/Controlled';
 
 import Productsback from './../../assets/Productsback.jpg';
 import Desktop from './../../assets/Desktop.png';
+import Thumbsup from './../../assets/Thumbsup.jpg';
 
 import { Tabs, Tab } from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
@@ -55,9 +56,10 @@ class Products extends Component {
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
                         <a href=''><p>Training</p> </a>
-                        <a href=''><p>Extensions</p> </a>
                         <a href=''><p>Integrations</p> </a>
-                        <a href=''><p>Something?</p> </a>
+                        <a href=''><p>Extensions</p> </a>
+                        <a href=''><p>Partners</p> </a>
+                        <a href=''><p>Customers</p> </a>
                     </div>
 
                 </div>
@@ -136,7 +138,7 @@ class Products extends Component {
                         <div className='techLeft'>
                             <ul>
                                 <div className='indvTech'>
-                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <li>REST/json to accomplish integration</li>
                                     <div className='techIcon'>
                                         <i class="far fa-check-circle"></i>
                                     </div>
@@ -144,7 +146,7 @@ class Products extends Component {
                                 <br />
                                 <hr className='style2' />
                                 <div className='indvTech'>
-                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <li>Web Services to help with integration</li>
                                     <div className='techIcon'>
                                         <i class="far fa-check-circle"></i>
                                     </div>
@@ -179,15 +181,55 @@ class Products extends Component {
                             </ul>
                         </div>
                         <div className='techRight'>
-                            <h4>hello</h4>
+                            <h4>??????</h4>
 
                         </div>
                     </div>
                     <br />
+                    <br />
                     <hr className='style1' />
-                    <div className='testimonialHeader'>
-                        <p>TESTIMONIALS</p>
-                        <h1>CONTENT</h1>
+                    {/************* TESTIMONIAL SECTION *************/}
+                    <div className='testimonial'>
+                        <div className='testimonialHeader'>
+                            <p>TESTIMONIALS</p>
+                        </div>
+                        <div className='testimonialContent'>
+                            {/******* TOP QUOTE ********/}
+                            <div className='indvTestimonial'>
+                                <div className='testimonialImg'>
+                                    <img src={Thumbsup} />
+                                </div>
+                                <div className='testimonialQuote'>
+                                    <p>"Noble has given us a clear and simple way of managing everything we need to do our jobs"</p>
+                                    <h4>George Washington</h4>
+                                </div>
+                            </div>
+                            {/********** BOTTOM QUOTE **********/}
+                            <div className='indvTestimonial'>
+                                <div className='testimonialQuote'>
+                                    <p>"Noble has given us a clear and simple way of managing everything we need to do our jobs"</p>
+                                    <h4>George Washington</h4>
+                                </div>
+                                <div className='testimonialImg'>
+                                    <img src={Thumbsup} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    {/* ************ END SECTION ************* */}
+                    <br />
+                    <hr className='style1' />
+                    <div className='productEnding'>
+                        <div className='testimonialHeader'>
+                            <p>JOIN US TODAY</p>
+                        </div>
+                        <div className='techDesc'>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
+                        </div>
+                        <div className='productgetStarted'>
+                        <p>Get Started</p>
+                        </div>
                     </div>
                 </div>
                 {/* <Footer /> */}
@@ -200,13 +242,13 @@ class Products extends Component {
                         <div className='quadSingle'>
                             <p>Assessments</p>
                             <div className='quadIcon'>
-                            <i class="fas fa-clipboard-check"></i>
+                                <i class="fas fa-clipboard-check"></i>
                             </div>
                         </div>
                         <div className='quadSingle'>
                             <p>Training</p>
                             <div className='quadIcon'>
-                            <i class="fas fa-users"></i>
+                                <i class="fas fa-users"></i>
                             </div>
                         </div>
                     </div>
@@ -214,13 +256,13 @@ class Products extends Component {
                         <div className='quadSingle'>
                             <p>Extensions</p>
                             <div className='quadIcon'>
-                            <i class="far fa-thumbs-up"></i>
+                                <i class="far fa-thumbs-up"></i>
                             </div>
                         </div>
                         <div className='quadSingle'>
                             <p>Integrations</p>
                             <div className='quadIcon'>
-                            <i class="fas fa-link"></i>
+                                <i class="fas fa-link"></i>
                             </div>
                         </div>
                     </div>

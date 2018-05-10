@@ -28,4 +28,10 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    .theirInfo {
+        height: 60.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }

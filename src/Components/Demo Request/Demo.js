@@ -67,7 +67,9 @@ class Demo extends Component {
                                 multiLine={false}
                                 rows={1}
                             /> <br />
+                            <div className='demoSubmit'>
                             <h3>SUBMIT</h3>
+                            </div>
 
                         </div>
                         {/* <form>

@@ -44,11 +44,23 @@ class Controlled extends Component {
                             This allows for more functionality in Tabs such as not
                             having any Tab selected or assigning them different values.
             </p>
+                        <h2 style={styles.headline}>Assessment Two</h2>
+                        <p style={styles.body}>
+                            Tabs are also controllable if you want to programmatically pass them their values.
+                            This allows for more functionality in Tabs such as not
+                            having any Tab selected or assigning them different values.
+            </p>
                     </div>
                 </Tab>
                 <Tab label="Juvenile" value="b">
                     <div>
-                        <h2 style={styles.headline}>Assessment Two</h2>
+                        <h2 style={styles.headline}>PACT</h2>
+                        <p style={styles.body}>
+                            This is another example of a controllable tab. Remember, if you
+                            use controllable Tabs, you need to give all of your tabs values or else
+                            you wont be able to select them.
+            </p>
+                        <h2 style={styles.headline}>R-PACT - Residential PACT</h2>
                         <p style={styles.body}>
                             This is another example of a controllable tab. Remember, if you
                             use controllable Tabs, you need to give all of your tabs values or else
