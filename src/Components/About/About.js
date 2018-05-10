@@ -13,6 +13,7 @@ import kobebrown from './../../assets/kobebrown.jpg';
 import BretSheeran from './../../assets/BretSheeran.jpg';
 import aaronA from './../../assets/aaronA.jpeg';
 import RyanR from './../../assets/RyanR.jpg';
+import Heaven from './../../assets/Heaven.mp4';
 
 
 
@@ -30,8 +31,18 @@ class About extends Component {
         return (
             <div className='AboutContainer'>
                 <Nav />
+                <div className='vidIntro'>
+                    <video loop autoPlay><source src={Heaven} type="video/mp4" />
+                    </video>
+                    <div className='aboutOverlay'>
+                        <div className='overlayIntro'>
+                            <h3>We do what we love. We love what we do.</h3>
+                            <p>Not only are we passionate about our work, we love the people we surround ourselves with. Come join us and you will know what we mean</p>
+                        </div>
+                    </div>
+                </div>
                 <div className='aboutHeader' >
-                    {/* <img className='nobleBlue' src={Nobleblue} /> */}
+                    <img className='nobleBlue' src={Nobleblue} />
                     <p>WE'RE NOBLE</p>
                 </div>
                 <div className="storyContainer" >
@@ -53,7 +64,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={aaronA} />
+                            <img src={aaronA} />
                         </div>
                         <div className='memberName'>
                             <p>Aaron Picton</p>
@@ -62,7 +73,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={Markalf} />
+                            <img src={Markalf} />
                         </div>
                         <div className='memberName'>
                             <p>Mark Winterman</p>
@@ -71,7 +82,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={kobebrown} />
+                            <img src={kobebrown} />
                         </div>
                         <div className='memberName'>
                             <p>Colby Brown</p>
@@ -80,7 +91,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={BryanS} />
+                            <img src={BryanS} />
                         </div>
                         <div className='memberName'>
                             <p>Bryan Parke</p>
@@ -89,7 +100,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={BretSheeran} />
+                            <img src={BretSheeran} />
                         </div>
                         <div className='memberName'>
                             <p>Bret Coppess</p>
@@ -107,7 +118,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={RyanR} />
+                            <img src={RyanR} />
                         </div>
                         <div className='memberName'>
                             <p>Ryan Parke</p>
@@ -116,7 +127,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                        <img src={RyanR} />
+                            <img src={RyanR} />
                         </div>
                         <div className='memberName'>
                             <p>Brent Norris</p>

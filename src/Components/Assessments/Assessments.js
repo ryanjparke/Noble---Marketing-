@@ -83,7 +83,7 @@ class Assessments extends Component {
                     </div>
                 </div>
 
-                <Footer />
+                {/* <Footer /> */}
                 {/**** container div ****/}
             </div>
         )

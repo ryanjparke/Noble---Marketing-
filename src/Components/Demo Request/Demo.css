@@ -12,9 +12,9 @@
     margin-top: 15vh;
     /* opacity: .5; */
     /* margin-bottom: 6vh; */
-    min-height: 700px;
+    /* min-height: 700px; */
     width: 90vw;
-    /* height: 85vh; */
+    height: 80vh;
     max-width: 900px;
     background: white;
     border-radius: 5px;
@@ -41,5 +41,17 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.demoSubmit {
+    margin-top: 40px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+    border: thin solid black;
+    border-radius: 10px;
 }
 
