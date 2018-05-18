@@ -36,7 +36,7 @@ class Controlled extends Component {
                 value={this.state.value}
                 onChange={this.handleChange}
             >
-                <Tab label="Adult" value="a">
+                <Tab label="Juvenile" value="a">
                     <div>
                         <h2 style={styles.headline}>Assessment One</h2>
                         <p style={styles.body}>
@@ -52,7 +52,7 @@ class Controlled extends Component {
             </p>
                     </div>
                 </Tab>
-                <Tab label="Juvenile" value="b">
+                <Tab label="Adult" value="b">
                     <div>
                         <h2 style={styles.headline}>PACT</h2>
                         <p style={styles.body}>
