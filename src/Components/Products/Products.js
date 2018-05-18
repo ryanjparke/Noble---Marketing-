@@ -71,11 +71,11 @@ class Products extends Component {
                     <div className='productsDesc'>
                         <div className='descLeft'>
                             <h2>Fast setup, simple use</h2>
-                            <p>Some kind of interesting short paragraph about how the setup is so simple that they will literally pass out and wake up in a year</p>
+                            <p>Noble Software group provides industry-leading risk assessments and offender compliance tools to corrections agencies nationwide.  Driven by assessment results, staff can easily create customized case plans—including Title-IVe compliant juvenile case plans—with actionable goals and interventions through the use of Noble’s case planning tools.  Full reporting is available for detailed analysis of an agency’s EBP progress. </p>
                             <h5>Something Else</h5>
                             <p>Another great paragraph that is a little smaller describing some other cool feature that will make people want to scroll down and learn more</p>
-                            <h5>No something? No problem</h5>
-                            <p>Another great paragraph that is a little smaller describing some other cool feature that will make people want to scroll down and learn more</p>
+                            <h5>Not cloud based? No problem.</h5>
+                            <p>Our software is available as a cloud-based subscription or as an on-premise solution. No matter your technical requirements, we will be able to find a model that fits.</p>
                         </div>
                         <div className='descRight'>
                             <img src={Desktop} />
@@ -154,7 +154,7 @@ class Products extends Component {
                                 <br />
                                 <hr className='style2' />
                                 <div className='indvTech'>
-                                    <li>Pellentesque habitant morbi tristique senectus</li>
+                                    <li>Cloud based solution or on-premise based solution</li>
                                     <div className='techIcon'>
                                         <i class="far fa-check-circle"></i>
                                     </div>
@@ -227,8 +227,10 @@ class Products extends Component {
                         <div className='techDesc'>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
                         </div>
-                        <div className='productgetStarted'>
-                        <p>Get Started</p>
+                        <div className='getStartedInvite'>
+                            <div className='productgetStarted'>
+                                <p>GET STARTED</p>
+                            </div>
                         </div>
                     </div>
                 </div>

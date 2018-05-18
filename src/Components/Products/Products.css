@@ -16,7 +16,7 @@
 /************* LEFT SIDE *************/
 .productsSideNav {
     margin-top: 60px;
-    height: 100vh;
+    height: 120%;
     width: 20vw;
     position: fixed;
 
@@ -306,7 +306,7 @@
 }
 
 .productEnding {
-    height: 100%;
+    height: 50%;
     width: 86.5%;
     margin-left: 100px;
     display: flex;
@@ -316,9 +316,18 @@
     /* justify-content: center; */
 }
 
+.getStartedInvite {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+}
+
 .productgetStarted {
-    width: 8%;
-    height: 3%;
+    width: 10%;
+    height: 11.5%;
     border: thin solid green;
     font-size: 14px;
     color: green;
