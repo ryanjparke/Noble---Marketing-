@@ -37,7 +37,7 @@ class About extends Component {
                     <div className='aboutOverlay'>
                         <div className='overlayIntro'>
                             <h3>We do what we love. We love what we do.</h3>
-                            <p>Not only are we passionate about our work, we love the people we surround ourselves with. Come join us and you will know what we mean</p>
+                            <p>Not only are we passionate about our work, we love the people we surround ourselves with. Come join us and you will know what we mean.</p>
                         </div>
                     </div>
                 </div>

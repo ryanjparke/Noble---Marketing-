@@ -6,7 +6,6 @@
     flex-direction: row;
     align-items: center;
 
-
     /* background: url('./../../assets/Productsback.jpg'); */
     /* background-size: cover; */
     /* background-color: black; */
@@ -15,7 +14,7 @@
 }
 /************* LEFT SIDE *************/
 .productsSideNav {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     height: 120%;
     width: 20vw;
     position: fixed;
@@ -31,23 +30,28 @@
 }
 
 .navHeader {
-    margin-top: 10vh;
-    margin-bottom: 15vh;
-    margin-left: 5vw;
+    margin-top: 150px;
+    /* margin-bottom: 15vh; */
+    padding-left: 10px; 
 
     font-size: 25px;
     font-weight: lighter;
     /* background-color: blue; */
-
+}
+.navHeader a {
+    color: white;
+    text-underline-position: below;
 }
 
 .innerProducts {
-    /* background-color: red; */
-    width: 20%;
+    background-color: red;
+    /* height: 90%; */
+    width: 0%;
     display: flex;
     text-align: left;
     flex-direction: column;
-    margin-left: 5vw;
+    margin-top: 150px;
+    margin-left: 80px;
     cursor: pointer;  
 
     font-size: 16px;
@@ -281,7 +285,7 @@
 
 .testimonialImg {
     width: 50%;
-    height: 40vh;
+    height: 100%;
     /* border: thin solid black; */
     /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4); */
     /* background-color: red; */

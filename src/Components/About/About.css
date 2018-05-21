@@ -1,6 +1,6 @@
 .AboutContainer {
-    /* height: 100vh; */
-    /* width: 100vw; */
+    height: 100%;
+    width: 100vw;
     display: inline;
     /* flex-direction: column; */
     background-color: #808080;
@@ -9,7 +9,9 @@
 
 .vidIntro {
     background-size: cover;
+    /* background-color: red; */
     display: flex;
+    height: 100%;
     width: 100%;
     z-index: -1;
 
@@ -27,10 +29,11 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    height: 107.5vh;
+    height: 1080px;
     width: 100%;
     background-color: black;
-    background-size: cover;
+    /* background-size: cover; */
+    overflow: hidden;
     opacity: .6;
 }
 
@@ -38,7 +41,7 @@
 z-index: 1;
 position: absolute;
 height: 40vh;
-width: 40vw;
+width: 60%;
 /* border: thin solid white; */
 color: white;
 font-size: x-large;

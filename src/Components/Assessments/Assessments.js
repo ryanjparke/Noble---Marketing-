@@ -15,7 +15,7 @@ const styles = {
     headline: {
         fontSize: 24,
         marginLeft: 10,
-        paddingTop: 1,
+        // paddingTop: 1,
         marginBottom: 0,
         fontWeight: 400,
         // background: "red",
@@ -31,12 +31,15 @@ const styles = {
     },
     paragraph: {
         fontSize: 14,
-        paddingTop: 4,
+        textAlign: "left",
+        paddingTop: 1,
         marginLeft: 10,
         fontWeight: 300
     },
     slide: {
         padding: 10,
+        height: 300,
+        width: 100,
     },
     views: {
         
@@ -67,7 +70,7 @@ class Assessments extends Component {
                 {/************ LEFT SIDE *************/}
                 <div className='productsSideNav'>
                     <div className='navHeader'>
-                        <p>OUR PRODUCTS</p>
+                    <a href='/products'><p>Back to products</p> </a>
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
