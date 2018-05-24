@@ -3,11 +3,30 @@
     width: 100vw;
 
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     position: fixed;
     /* align-items: center; */
     background-size: cover;
     overflow: hidden;
+}
+.assessmentHeader {
+    margin-top: 150px;
+    /* margin-bottom: 15vh; */
+    padding-left: 10px; 
+    padding-right: 40px;
+
+    font-size: 25px;
+    font-weight: lighter;
+    /* background-color: blue; */
+}
+.assessmentHeader a {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-underline-position: below;
+}
+.backIcon {
+    /* font-size: small; */
 }
 
 /************* RIGHT SIDE *************/

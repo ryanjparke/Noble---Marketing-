@@ -42,7 +42,7 @@ const styles = {
         width: 100,
     },
     views: {
-        
+
     }
 };
 
@@ -69,8 +69,11 @@ class Assessments extends Component {
                 <Nav />
                 {/************ LEFT SIDE *************/}
                 <div className='productsSideNav'>
-                    <div className='navHeader'>
-                    <a href='/products'><p>Back to products</p> </a>
+                    <div className='assessmentHeader'>
+                        <a href='/products'>
+                            <div className='backIcon'>
+                                <i className="fas fa-arrow-left"></i>
+                            </div>Back to products</a>
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
@@ -91,7 +94,7 @@ class Assessments extends Component {
                             value={this.state.slideIndex}>
                             <Tab style={styles.tab} label="JUVENILE" value={0} />
                             <Tab style={styles.tab} label="ADULT" value={1} />
-                            <Tab style={styles.tab}label="THREE" value={2} />
+                            <Tab style={styles.tab} label="THREE" value={2} />
                         </Tabs>
                         <SwipeableViews
                             index={this.state.slideIndex} onChangeIndex={this.handleChange}>
@@ -110,10 +113,10 @@ class Assessments extends Component {
                                 {/* assessment 4 */}
                                 <h4 style={styles.title}>OYAS - Ohio Youth Assessment System</h4>
                                 <p style={styles.paragraph}>Based on the work by Dr. Ed Latessa, the OYAS is a multi-tool system designed to address risk and needs of youth at different stages of the criminal justice cycle. Noble's offering integrates the system into the case planning system, allowing OYAS results to be used side-by-side with other assessments when creating a case plan. More information about the OYAS can be found on the Ohio Department of Youth Services site.</p>
-                                {/* assessment 5 */} 
+                                {/* assessment 5 */}
                                 <h4 style={styles.title}>PREA - Prison Rape Elimination Act</h4>
                                 <p style={styles.paragraph}>The PREA is a 15-item assessment designed by Noble in partnership with customers to assist departments with statutory requirements associated with the PREA.</p>                           </div>
-                                {/****** ADULT ASSESSMENTS ******/}
+                            {/****** ADULT ASSESSMENTS ******/}
                             <div>
                                 <h2 style={styles.headline}>Adult Assessments</h2>
                                 <h4 style={styles.title}>SRNA - The Static Risk and Needs Assessment</h4>
