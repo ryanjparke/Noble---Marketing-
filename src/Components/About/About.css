@@ -2,6 +2,8 @@
     height: 100%;
     width: 100vw;
     display: inline;
+    flex-direction: column;
+    justify-content: center;
     /* flex-direction: column; */
     background-color: #808080;
     top: 0;
@@ -9,27 +11,27 @@
 
 .vidIntro {
     background-size: cover;
-    /* background-color: red; */
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    /* width: 106vw; */
     z-index: -1;
-
-    /* align-content: center; */
-    /* align-items: center; */
-    justify-content: space-around;
     overflow: hidden;
-    /* width: 100vw; */
+}
+.vidIntro video {
+    /* position: fixed; */
+    /* display: inline; */
+    height: 120vh;
+    /* width: 182vw; */
+    background-size: cover;
 }
 
 .aboutOverlay {
     z-index: 0;
     position: absolute;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    height: 1080px;
+    height: 100vh;
     width: 100%;
     background-color: black;
     /* background-size: cover; */
@@ -40,38 +42,121 @@
 .overlayIntro {
 z-index: 1;
 position: absolute;
-height: 40vh;
+height: 60vh;
 width: 60%;
 /* border: thin solid white; */
 color: white;
 font-size: x-large;
 }
 
-.aboutHeader {
+.aboutHeaderBackground {
+    /* z-index: -2; */
     /* margin-top: 6vh; */
     height: 30vh;
     width: 100vw;
-    background-color: lightblue;
-    color: black;
+    background: url('./../../assets/Noble Pattern Footer.svg');
+    background-color: hsla(100, 0%, 23%, 1);
+    /* color: black; */
 
+     display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: left; */
+}
+
+.aboutHeaderContent {
+    height: 30vh;
+    width: 100vw;
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: left;
+    opacity: 1;
+}
+.aboutHeaderContent p {
+    color: white;
+    font-size: 5.3vh;
+    font-weight: lighter;
+    /* text-shadow:; */
 }
 
 .nobleBlue {
-    margin-left: 140px;
-    padding: 200px;
+    margin-left: 10vw;
+    padding-right: 10vw;
     height: 20vh;
 }
 
-/* .storyContainer {
-    /* height: 58vh; 
-} */
+.storyContainer {
+    /* background-color: blue; */
+    margin-top: 100px;
+    /* width: 66.6%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.storyContainer p {
+    font-weight: lighter;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 16vw;
+}
+.storyContainer b {
+    font-weight: 420;
+
+}
+.teamHeader {
+    width: 100vw;
+    /* background-color: blue; */
+}
+.teamHeader p {
+    font-size: 5vh;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 10vw;
+
+}
 
 .mobileTeam {
-    display: none;
+    /* width: 90%; */
+    margin-left: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+/* .member {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    margin-right: 11.5vw;
+    margin-bottom: 10vh;
+    border: thin solid black;
+    /* border-radius: 50px; */
+}
+.memberPhoto img {
+    height: 100%;
+    width: 100%;
+    border: thin solid black;
+}
+.memberName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: thin solid black;
 }
 
 
@@ -83,43 +168,58 @@ font-size: x-large;
         display: inline;
         /* background-color: lightblue; */
     }
-    .aboutHeader {
-        margin-top: 10vh;
-        height: 100%;
+    .vidIntro {
+        display: none;
+    }
+    .aboutHeaderBackground {
+        display: flex;
+        margin-top: 10.1vh;
+    }
+    .aboutHeaderContent p {
+        font-size: 4.3vh;
+    }
+    .aboutHeaderContent img {
+        height: 15vh;
+    }
+    .teamHeader {
+        margin-top: 3vh;
+        /* height: 100%; */
         width: 100vw;
         display: flex;
         justify-content: left;
         text-align: center;
         color: black;
         /* font-size: 8px; */
-        background: none;
+        /* background: red; */
     }
-
-    .aboutHeader p {
+    .teamHeader p {
         font-size: 24px;
         font-weight: lighter;
         /* color: #808080; */
         margin-left: 12px;
+        margin-bottom: 0;
     }
     .storyContainer {
         height: 100%;
         width: 100vw;
         display: flex;
         /* background-color: lightblue; */
+        margin-top: 0;
+        margin-bottom: 0;
     }
-
     .storyContainer p {
         text-align: left;
-        font-size: 14px;
+        font-size: 17px;
         /* color: #808080; */
         margin-left: 12px;
-
+        margin-right: 12px;
+        margin-bottom: 0;
     }
-
     .mobileTeam {
+        background: none;
         width: 100vw;
-        /* margin-bottom: 100px; */
-        display: inline-flex;
+        margin: 0px;
+        display: inline;
         flex-direction: column;
         /* background-color: lightblue; */
     }
@@ -132,26 +232,27 @@ font-size: x-large;
         align-items: center;
         justify-content: center;
         justify-content: space-around;
+        border: none;
         /* padding-right: 50px; */
         /* background-color: red; */
         /* border-bottom: thin solid black; */
+        /* margin-left: 2px; */
     }
-
     .memberPhoto {
         height: 150px;
         width: 150px;
         border: thin solid black;
         border-radius: 50%;
-        background-color:#2AAAE2;
+        /* background-color:#2AAAE2; */
+        margin-left: 12px;
     }
-
     .memberPhoto img {
         height: 150px;
         width: 150px;
         border-radius: 50%;
     }
-
     .memberName {
         height: 100%;
+        border: none;
     }
 }

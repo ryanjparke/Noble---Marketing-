@@ -41,15 +41,17 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <div className='aboutHeader' >
-                    <img className='nobleBlue' src={Nobleblue} />
-                    <p>WE'RE NOBLE</p>
+                <div className='aboutHeaderBackground' >
+                    <div className='aboutHeaderContent'>
+                        <img className='nobleBlue' src={Nobleblue} />
+                        <p>WE'RE NOBLE</p>
+                    </div>
                 </div>
                 <div className="storyContainer" >
-                    <p>Noble was founded in the early summer of 2012 by a close-knit team of co-workers who shared a common vision: help improve the way corrections assesses and treats the criminogenic needs of offenders.  Our goal is very simple; we want to have the best assessment and case planning tools in the country.  We do this by maintaining close relationships with assessment authors, using cutting edge software development practices, and most importantly, listening to our users</p>
+                    <p>Noble was founded in the early summer of 2012 by a close-knit team of co-workers who shared a common vision: help improve the way corrections assesses and treats the criminogenic needs of offenders.  Our goal is very simple; we want to have the best assessment and case planning tools in the country.  We do this by maintaining close relationships with assessment authors, using cutting edge software development practices, and most importantly, <i><b>listening to our users.</b></i></p>
                 </div>
                 {/************ MOBILE VIEW *************/}
-                <div className='mobilehomeHeader'>
+                <div className='teamHeader'>
                     <p>MEET THE TEAM</p>
                 </div>
                 <div className='mobileTeam'>
@@ -82,7 +84,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={kobebrown} />
+                            {/* <img src={kobebrown} /> */}
                         </div>
                         <div className='memberName'>
                             <p>Colby Brown</p>
@@ -91,7 +93,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={BryanS} />
+                            {/* <img src={BryanS} /> */}
                         </div>
                         <div className='memberName'>
                             <p>Bryan Parke</p>
@@ -100,7 +102,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={BretSheeran} />
+                            {/* <img src={BretSheeran} /> */}
                         </div>
                         <div className='memberName'>
                             <p>Bret Coppess</p>
@@ -109,7 +111,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <p>photo</p>
+                            {/* <p>photo</p> */}
                         </div>
                         <div className='memberName'>
                             <p>Jeremy Carranza</p>
@@ -118,7 +120,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={RyanR} />
+                            {/* <img src={RyanR} /> */}
                         </div>
                         <div className='memberName'>
                             <p>Ryan Parke</p>
@@ -127,7 +129,7 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={RyanR} />
+                            {/* <img src={RyanR} /> */}
                         </div>
                         <div className='memberName'>
                             <p>Brent Norris</p>
