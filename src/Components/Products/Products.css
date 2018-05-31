@@ -355,6 +355,18 @@
     color: white;
     transition: .3s;
 }
+/************* FOOTER *************/
+.productsFooterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    width: 86.5%;
+    height: 100px;
+    /* margin-left: 200px; */
+    /* background-color: red; */
+}
 .mobileproductstopHeader {
     display: none;
 }

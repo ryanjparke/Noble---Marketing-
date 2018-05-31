@@ -233,57 +233,64 @@ class Products extends Component {
                         {/* <div className='enterEmail' */}
                         <div className='getStartedEnding'>
                             <form autoComplete="on" className='productpageForm'>
-                                <input type='text' placeholder="johndoe@gmail.com" className='inputBox' />
-                        </form>
-                                <div className='productpagegetStarted'>
-                                    <p>GET STARTED</p>
-                                </div>
-                        </div>
+                                <input type='text' placeholder="hello@email.com" className='inputBox' />
+                            </form>
+                            <div className='productpagegetStarted'>
+                                <p>GET STARTED</p>
+                            </div>
+                            <div className='productsFooterContainer'>
+                                <h4>hello</h4>
+                                <h4>hello</h4>
+                                <h4>hello</h4>
+                                <h4>hello</h4>
+                            </div>
                         </div>
                     </div>
-                    {/* <Footer /> */}
+                </div>
+                {/***** Footer Section *****/}
 
-                    {/********* MOBILE VIEW *********/}
-                    <div className='mobileproductstopHeader'>
-                        <p>PRODUCTS/SERVICES</p>
-                    </div>
-                    <div className='quadSection'>
-                        <div className='topTwo'>
-                            <div className='quadSingle'>
-                                <p>Assessments</p>
-                                <div className='quadIcon'>
-                                    <i class="fas fa-clipboard-check"></i>
-                                </div>
-                            </div>
-                            <div className='quadSingle'>
-                                <p>Training</p>
-                                <div className='quadIcon'>
-                                    <i class="fas fa-users"></i>
-                                </div>
+
+                {/********* MOBILE VIEW *********/}
+                <div className='mobileproductstopHeader'>
+                    <p>PRODUCTS/SERVICES</p>
+                </div>
+                <div className='quadSection'>
+                    <div className='topTwo'>
+                        <div className='quadSingle'>
+                            <p>Assessments</p>
+                            <div className='quadIcon'>
+                                <i class="fas fa-clipboard-check"></i>
                             </div>
                         </div>
-                        <div className='bottomTwo'>
-                            <div className='quadSingle'>
-                                <p>Extensions</p>
-                                <div className='quadIcon'>
-                                    <i class="far fa-thumbs-up"></i>
-                                </div>
-                            </div>
-                            <div className='quadSingle'>
-                                <p>Integrations</p>
-                                <div className='quadIcon'>
-                                    <i class="fas fa-link"></i>
-                                </div>
+                        <div className='quadSingle'>
+                            <p>Training</p>
+                            <div className='quadIcon'>
+                                <i class="fas fa-users"></i>
                             </div>
                         </div>
                     </div>
-                    <div className='mobileproductsHeader'>
-                        <p>Assessments</p>
+                    <div className='bottomTwo'>
+                        <div className='quadSingle'>
+                            <p>Extensions</p>
+                            <div className='quadIcon'>
+                                <i class="far fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                        <div className='quadSingle'>
+                            <p>Integrations</p>
+                            <div className='quadIcon'>
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
                     </div>
-                    <div className='mobileAssessmentContent'>
-                        <Controlled />
-                    </div>
-                    {/* 
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Assessments</p>
+                </div>
+                <div className='mobileAssessmentContent'>
+                    <Controlled />
+                </div>
+                {/* 
                     <Tabs
                         onChange={this.handleChange}
                         value={this.state.slideIndex}>
@@ -305,23 +312,23 @@ class Products extends Component {
                                 </div>
                     </SwipeableViews>
                 </div> */}
-                    <div className='mobileproductsHeader'>
-                        <p>Training</p>
-                    </div>
-                    <div className='mobileproductsHeader'>
-                        <p>Extensions</p>
-                    </div>
-                    <div className='mobileproductsHeader'>
-                        <p>Integration</p>
-                    </div>
-                    {/* container div */}
-                </div >
-                )
-            }
-        }
-        export default Products;
-        
-        
-        
-        
-{/* <div className={this.state.toggleModal ? 'indvProduct displayModal' : 'indvProduct hideModal'}> */}
+                <div className='mobileproductsHeader'>
+                    <p>Training</p>
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Extensions</p>
+                </div>
+                <div className='mobileproductsHeader'>
+                    <p>Integration</p>
+                </div>
+                {/* container div */}
+            </div >
+        )
+    }
+}
+export default Products;
+
+
+
+
+{/* <div className={this.state.toggleModal ? 'indvProduct displayModal' : 'indvProduct hideModal'}> */ }
