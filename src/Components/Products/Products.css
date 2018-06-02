@@ -73,7 +73,7 @@
     height: 100vh;
     /* width: 100vw; */
     /* width: 86.5%; */
-    margin-left: 28vw;
+    margin-left: 26vw;
     margin-right: 6vw;
     margin-top: 220px;
 
@@ -127,7 +127,8 @@
 }
 
 .descRight img {
-    height: 50vh;
+    height: 80%;
+    width: 80%;
     /* margin-left: 100px; */
     /* width: 100vw; */
 }
@@ -175,7 +176,7 @@
 .techContainer {
     /* background-color: red; */
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
 }
@@ -197,7 +198,7 @@
 .techSection {
     /* background-color: red; */
     /* margin-left: 100px; */
-    width: 86.5%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     
@@ -251,7 +252,7 @@
 
 .testimonialContent {
     /* margin-left: 100px; */
-    width: 86.5%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -341,18 +342,33 @@
 }
 /************* FOOTER *************/
 .productsFooterContainer {
-    /* padding-left: 100px; */
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 86.5%;
+    justify-items: flex-end;
+    width: 16.5%;
     height: 100px;
-    background-color: red;
+    width: 100%;
+    /* background-color: red; */
 }
 .productsFooterContainer h4 {
-    color: yellow;
+    /* color: yellow; */
     justify-content: right;
+}
+.footerLinks {
+    margin-left: 27vw;
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-content: right;
+    justify-content: space-between;
+}
+.footerLinks a {
+    text-decoration: none;
+    color: #888888;
+}
+.footerLinks a:hover {
+    color: #2AAAE2;
 }
 
 .mobileproductstopHeader {
