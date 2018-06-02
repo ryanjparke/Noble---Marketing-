@@ -238,16 +238,18 @@ class Products extends Component {
                             <div className='productpagegetStarted'>
                                 <p>GET STARTED</p>
                             </div>
-                            <div className='productsFooterContainer'>
-                                <h4>hello</h4>
-                                <h4>hello</h4>
-                                <h4>hello</h4>
-                                <h4>hello</h4>
+                        </div>
+                        {/***** Footer Section *****/}
+                        <div className='productsFooterContainer'>
+                            <div className='footerLinks'>
+                                <a href=''>Our Company</a>
+                                <a href=''>Blog</a>
+                                <a href=''>Contact Us</a>
+                                <a href=''>Give Feedback</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                {/***** Footer Section *****/}
 
 
                 {/********* MOBILE VIEW *********/}

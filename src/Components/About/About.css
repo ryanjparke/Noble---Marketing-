@@ -45,13 +45,26 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 position: absolute;
-height: 60vh;
+/* height: 100vh; */
 width: 60%;
 /* border: thin solid white; */
 color: white;
 font-size: x-large;
 opacity: 1;
 }
+.scrollDownArrow {
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 100px;
+    justify-content: bottom;
+    margin-top: 45vh;
+    height: 80px;
+    animation: bounce 1.5s infinite;
+}
+
 
 .aboutHeaderBackground {
     /* z-index: -2; */
@@ -61,7 +74,6 @@ opacity: 1;
     background: url('./../../assets/Noble Pattern Footer.svg');
     background-color: hsla(100, 0%, 23%, 1);
     /* color: black; */
-
      display: flex;
     /* align-items: center; */
     /* text-align: center; */
@@ -119,7 +131,6 @@ opacity: 1;
     margin-left: 10vw;
 
 }
-
 .mobileTeam {
     /* width: 90%; */
     margin-left: 10vw;
@@ -161,6 +172,14 @@ opacity: 1;
     height: 100%;
     width: 100%;
     border: thin solid black;
+}
+@keyframes bounce {
+    0% { transform: translatey(0)}
+    /* 25% { transform: translateY(-5)} */
+    /* 50% { transform: translateY(-10px)} */
+    /* 75% { transform: translateY(-20px)} */
+    80% { transform: translateY(-30px)}
+    /* 100% {transform: translateY(-15px)} */
 }
 
 

@@ -2,13 +2,13 @@
     height: 100vh;
     width: 100vw;
 
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
 
     /* background: url('./../../assets/Productsback.jpg'); */
     /* background-size: cover; */
-    /* background-color: black; */
+    /* background-color: red; */
     /* background-position: left top; */
     
 }
@@ -44,7 +44,7 @@
 }
 
 .innerProducts {
-    background-color: red;
+    /* background-color: red; */
     /* height: 90%; */
     width: 0%;
     display: flex;
@@ -64,8 +64,6 @@
 }
 
 .innerProducts a:hover {
-    /* border: thin solid black; */
-    /* width: 10vw; */
     color: #808080;
 }
 
@@ -73,29 +71,16 @@
 
 .productsIntro {
     height: 100vh;
-    width: 100vw;
-    margin-left: 20vw;
+    /* width: 100vw; */
+    /* width: 86.5%; */
+    margin-left: 26vw;
+    margin-right: 6vw;
     margin-top: 220px;
 
     /* border: thin solid black; */
     /* background-color: rgba(35, 34, 34, 0.61); */
 }
 
-.displayModal {
-    position: fixed;
-
-    /* margin-left: 45vw; */
-    z-index: 5;
-    transition: .5s;
-}
-
-.hideModal {
-    position: fixed;
-    left: -150px;
-    right: 0;
-    transition-delay: .15s;
-    transition: .5s;
-}
 .productsHeader {
     color: #2AAAE2;
     /* margin-top: 50px; */
@@ -103,7 +88,6 @@
 
     font-weight: lighter;
     font-size: 32px;
-
 }
 
 .productsDesc {
@@ -121,7 +105,7 @@
 
 .descLeft {
     width: 50%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     /* background-color: red; */
 
     text-align: left;
@@ -143,8 +127,9 @@
 }
 
 .descRight img {
-    height: 50vh;
-    margin-left: 100px;
+    height: 80%;
+    width: 80%;
+    /* margin-left: 100px; */
     /* width: 100vw; */
 }
 
@@ -180,18 +165,18 @@
 
 /************* DIVIDERS *************/
 .style1 {
-    width: 86%;
+    width: 100%;
     
 }
 .style2 {
-    width: 100%;
+    /* width: 100%; */
 }
 /************** TECH SECTION **************/
 
 .techContainer {
     /* background-color: red; */
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
 }
@@ -212,8 +197,8 @@
 
 .techSection {
     /* background-color: red; */
-    margin-left: 100px;
-    width: 86.5%;
+    /* margin-left: 100px; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     
@@ -266,8 +251,8 @@
 }
 
 .testimonialContent {
-    margin-left: 100px;
-    width: 86.5%;
+    /* margin-left: 100px; */
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -313,13 +298,13 @@
 
 .joinusDesc {
     width: 86.5%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-weight: lighter;
     text-align: left;
     /* background-color: red; */
 }
 .getStartedEnding {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     height: 300px;
     width: 100%;
     display: flex;
@@ -357,16 +342,35 @@
 }
 /************* FOOTER *************/
 .productsFooterContainer {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    text-align: right;
-    width: 86.5%;
+    justify-items: flex-end;
+    width: 16.5%;
     height: 100px;
-    /* margin-left: 200px; */
+    width: 100%;
     /* background-color: red; */
 }
+.productsFooterContainer h4 {
+    /* color: yellow; */
+    justify-content: right;
+}
+.footerLinks {
+    margin-left: 27vw;
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-content: right;
+    justify-content: space-between;
+}
+.footerLinks a {
+    text-decoration: none;
+    color: #888888;
+}
+.footerLinks a:hover {
+    color: #2AAAE2;
+}
+
 .mobileproductstopHeader {
     display: none;
 }
