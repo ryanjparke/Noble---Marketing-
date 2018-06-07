@@ -51,7 +51,7 @@ class Products extends Component {
                 {/************* LEFT SIDE *************/}
                 <div className='productsSideNav'>
                     <div className='navHeader'>
-                        <p>OUR PRODUCTS</p>
+                        <p></p>
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
@@ -59,7 +59,7 @@ class Products extends Component {
                         <a href=''><p>Integrations</p> </a>
                         <a href=''><p>Extensions</p> </a>
                         <a href=''><p>Partners</p> </a>
-                        <a href=''><p>Customers</p> </a>
+                        <a href='/customers'><p>Customers</p> </a>
                     </div>
 
                 </div>
