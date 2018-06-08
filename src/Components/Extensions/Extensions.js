@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Customers.css';
+import './Extensions.css';
 
 import Nav from '../Nav/Nav';
 
-class Customers extends Component {
+class Extensions extends Component {
     constructor(props) {
         super(props);
 
@@ -25,19 +25,19 @@ class Customers extends Component {
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
-                        <a href=''><p>Training</p> </a>
-                        <a href=''><p>Extensions</p> </a>
-                        <a href=''><p>Integrations</p> </a>
-                        <a className='currentService'href='/customers'><p>Customers</p> </a>
+                        <a href='/training'><p>Training</p> </a>
+                        <a className='currentService'href=''><p>Extensions</p> </a>
+                        <a href='/integrations'><p>Integrations</p> </a>
+                        <a href='/customers'><p>Customers</p> </a>
                     </div>
                 </div>
                 {/************* RIGHT SIDE *************/}
                 <div className='rightCustomers'>
-                <p>hello world</p>
+                <p>Training</p>
 
                 </div>
             </div>
         )
     }
 }
-export default Customers;
+export default Extensions;
