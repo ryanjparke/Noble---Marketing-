@@ -14,6 +14,7 @@ import Login from './Components/Login/Login.js';
 import Customers from './Components/Customers/Customers';
 import Training from './Components/Training/Training';
 import Extensions from './Components/Extensions/Extensions';
+import Integrations from './Components/Integrations/Integrations';
 
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
             <Route component={Customers} path='/customers' />
             <Route component={Training} path='/training' />
             <Route component={Extensions} path='/extensions' />
+            <Route component={Integrations} path='/integrations' />
           </Switch>
         </Router>
       </div>

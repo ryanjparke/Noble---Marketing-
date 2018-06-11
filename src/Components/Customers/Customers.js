@@ -16,7 +16,7 @@ class Customers extends Component {
             <div className='customersContainer'>
                 <Nav />
                 {/************ LEFT SIDE *************/}
-                <div className='productsSideNav'>
+                <div className='assessmentSideNav'>
                     <div className='assessmentHeader'>
                         <a href='/products'>
                             <div className='backIcon'>
@@ -25,15 +25,27 @@ class Customers extends Component {
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
-                        <a href=''><p>Training</p> </a>
-                        <a href=''><p>Extensions</p> </a>
-                        <a href=''><p>Integrations</p> </a>
-                        <a className='currentService'href='/customers'><p>Customers</p> </a>
+                        <a href='/training'><p>Training</p> </a>
+                        <a href='/extensions'><p>Extensions</p> </a>
+                        <a href='/integrations'><p>Integrations</p> </a>
+                        <a className='currentService' href='/customers'><p>Customers</p> </a>
                     </div>
                 </div>
                 {/************* RIGHT SIDE *************/}
                 <div className='rightCustomers'>
-                <p>hello world</p>
+                    {/* <div className='customerList'> */}
+                        <p className='assessmentsHeader'>Meet our Customers</p>
+                        <div className='indvCustomer'>
+                        <p>Customer 1</p>
+                        </div>
+                        <div className='indvCustomer'>
+                        <p>Customer 2</p>
+                        </div>
+                        <div className='indvCustomer'>
+                        <p>Customer 3 and so on
+                        </p>
+                        </div>
+                    {/* </div> */}
 
                 </div>
             </div>

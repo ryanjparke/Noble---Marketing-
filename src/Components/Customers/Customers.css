@@ -5,11 +5,26 @@
     /* background-color: black; */
 }
 .rightCustomers {
-    height: 100%;
+    /* height: 100%; */
     width: 70%;
     margin-left: 20vw;
     display: inline-flex;
     justify-content: center;
+    flex-direction: column;
     /* background-color: white; */
+    /* border: thin solid red; */
+}
+
+.customerList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.indvCustomer {
+    width: 100%;
+    margin-bottom: 100px;
+    height: 500px;
+    /* background-color: red; */
     border: thin solid black;
 }
