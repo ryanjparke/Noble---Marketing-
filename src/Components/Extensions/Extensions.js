@@ -16,7 +16,7 @@ class Extensions extends Component {
             <div className='customersContainer'>
                 <Nav />
                 {/************ LEFT SIDE *************/}
-                <div className='productsSideNav'>
+                <div className='assessmentSideNav'>
                     <div className='assessmentHeader'>
                         <a href='/products'>
                             <div className='backIcon'>
@@ -26,7 +26,7 @@ class Extensions extends Component {
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
                         <a href='/training'><p>Training</p> </a>
-                        <a className='currentService'href=''><p>Extensions</p> </a>
+                        <a className='currentService'href='/extensions'><p>Extensions</p> </a>
                         <a href='/integrations'><p>Integrations</p> </a>
                         <a href='/customers'><p>Customers</p> </a>
                     </div>

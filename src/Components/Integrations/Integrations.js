@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import './Training.css';
+import './Integrations.css';
 
 import Nav from '../Nav/Nav';
-import Modal from '../Modal/Modal'
 
-class Training extends Component {
+class Integrations extends Component {
     constructor(props) {
         super(props);
 
@@ -26,20 +25,19 @@ class Training extends Component {
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
-                        <a className='currentService'href='/training'><p>Training</p> </a>
+                        <a href='/training'><p>Training</p> </a>
                         <a href='/extensions'><p>Extensions</p> </a>
-                        <a href='/integrations'><p>Integrations</p> </a>
+                        <a className='currentService'href='/integrations'><p>Integrations</p> </a>
                         <a href='/customers'><p>Customers</p> </a>
                     </div>
                 </div>
                 {/************* RIGHT SIDE *************/}
                 <div className='rightCustomers'>
                 <p>Training</p>
-                <Modal />
 
                 </div>
             </div>
         )
     }
 }
-export default Training;
+export default Integrations;

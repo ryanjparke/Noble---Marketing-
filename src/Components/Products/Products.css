@@ -30,19 +30,16 @@
     flex-direction: column;
 }
 
-.navHeader {
-    margin-top: 150px;
-    /* margin-bottom: 15vh; */
+/* .navHeader {
     padding-left: 10px; 
 
     font-size: 25px;
     font-weight: lighter;
-    /* background-color: blue; */
-}
-.navHeader a {
+} */
+/* .navHeader a {
     color: white;
     text-underline-position: below;
-}
+} */
 
 .innerProducts {
     /* background-color: red; */

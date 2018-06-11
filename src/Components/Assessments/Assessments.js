@@ -34,7 +34,7 @@ const styles = {
         textAlign: "left",
         paddingTop: 1,
         marginLeft: 10,
-        fontWeight: 300
+        fontWeight: 200
     },
     slide: {
         padding: 10,
@@ -67,8 +67,10 @@ class Assessments extends Component {
         return (
             <div className='asmtsContainer'>
                 <Nav />
+
                 {/************ LEFT SIDE *************/}
-                <div className='productsSideNav'>
+
+                <div className='assessmentSideNav'>
                     <div className='assessmentHeader'>
                         <a href='/products'>
                             <div className='backIcon'>
@@ -83,9 +85,11 @@ class Assessments extends Component {
                         <a href='/customers'><p>Customers</p> </a>
                     </div>
                 </div>
+
                 {/************* RIGHT SIDE *************/}
+
                 <div className='asmtsRight'>
-                    <div className='productsHeadera'>
+                    <div className='assessmentsHeader'>
                         <p>Assessments</p>
                     </div>
                     <div className='swipeable'>
