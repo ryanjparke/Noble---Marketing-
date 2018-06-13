@@ -34,18 +34,28 @@ class Customers extends Component {
                 {/************* RIGHT SIDE *************/}
                 <div className='rightCustomers'>
                     {/* <div className='customerList'> */}
-                        <p className='assessmentsHeader'>Meet our Customers</p>
-                        <div className='indvCustomer'>
-                        <p>Customer 1</p>
+                    <p className='assessmentsHeader'>Meet our Customers</p>
+                    <div className='indvCustomer'>
+                        <div className='rightOverlay'>
+                        <p>hello</p>
                         </div>
-                        <div className='indvCustomer'>
-                        <p>Customer 2</p>
-                        </div>
-                        <div className='indvCustomer'>
-                        <p>Customer 3 and so on
-                        </p>
-                        </div>
+                    </div>
+                    <div className='indvCustomer'>
+                        <p>img</p>
+                    </div>
+                    <div className='indvCustomer'>
+                        <p>img</p>
+                    </div>
                     {/* </div> */}
+                    {/********* FOOTER SECTION *********/}
+                    <div className='productsFooterContainer'>
+                        <div className='footerLinks'>
+                            <a href=''>Our Company</a>
+                            <a href=''>Blog</a>
+                            <a href='/contact'>Contact Us</a>
+                            <a href=''>Give Feedback</a>
+                        </div>
+                    </div>
 
                 </div>
             </div>

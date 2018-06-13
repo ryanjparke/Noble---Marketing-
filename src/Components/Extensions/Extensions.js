@@ -34,7 +34,15 @@ class Extensions extends Component {
                 {/************* RIGHT SIDE *************/}
                 <div className='rightCustomers'>
                 <p>Training</p>
-
+                {/* ********* FOOTER SECTION *********/ }
+                    <div className='productsFooterContainer'>
+                        <div className='footerLinks'>
+                            <a href=''>Our Company</a>
+                            <a href=''>Blog</a>
+                            <a href=''>Contact Us</a>
+                            <a href=''>Give Feedback</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

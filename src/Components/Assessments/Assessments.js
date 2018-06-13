@@ -140,6 +140,7 @@ class Assessments extends Component {
                                 Something Else Tools
                                 </div>
                         </SwipeableViews>
+                        
                     </div>
                 </div>
 
