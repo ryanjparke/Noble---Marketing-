@@ -26,7 +26,7 @@ class Training extends Component {
                     </div>
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
-                        <a className='currentService'href='/training'><p>Training</p> </a>
+                        <a className='currentService' href='/training'><p>Training</p> </a>
                         <a href='/extensions'><p>Extensions</p> </a>
                         <a href='/integrations'><p>Integrations</p> </a>
                         <a href='/customers'><p>Customers</p> </a>
@@ -34,8 +34,17 @@ class Training extends Component {
                 </div>
                 {/************* RIGHT SIDE *************/}
                 <div className='rightCustomers'>
-                <p>Training</p>
-                <Modal />
+                    <p>Training</p>
+                    <Modal />
+                    {/********* FOOTER SECTION *********/}
+                    <div className='productsFooterContainer'>
+                        <div className='footerLinks'>
+                            <a href=''>Our Company</a>
+                            <a href=''>Blog</a>
+                            <a href=''>Contact Us</a>
+                            <a href=''>Give Feedback</a>
+                        </div>
+                    </div>
 
                 </div>
             </div>

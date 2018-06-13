@@ -56,7 +56,7 @@ class Products extends Component {
                     <div className='innerProducts'>
                         <a href='/assessments'><p>Assessments</p> </a>
                         <a href='/training'><p>Training</p> </a>
-                        <a href=''><p>Integrations</p> </a>
+                        <a href='/integrations'><p>Integrations</p> </a>
                         <a href='/extensions'><p>Extensions</p> </a>
                         <a href=''><p>Partners</p> </a>
                         <a href='/customers'><p>Customers</p> </a>

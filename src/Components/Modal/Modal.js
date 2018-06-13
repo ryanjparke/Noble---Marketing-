@@ -6,22 +6,28 @@ import { FloatingActionButton } from 'material-ui';
 
 const styles = {
     headlineText: {
+        height: 70,
         fontSize: 24,
-        marginLeft: 20,
+        marginLeft: 0,
+        color: "black",
     },
     mainButtonStyle: {
         height: 50,
-        width: 300,
+        width: "15vw",
         borderRadius: 50,
-        background: "#2AAAE2",
+        background: "#46A040",
         cursor: "pointer",
     },
     flatButtonStyle: {
-        height: 50,
+        height: 40,
         width: 50,
         color: "#2AAAE2",
-        fontSize: 200,
 
+    },
+    emailInput: {
+        height: 40,
+        width: 700,
+        fontSize: 20
     }
 }
 
@@ -61,13 +67,17 @@ class Modal extends Component {
         return (
             <div>
                 <button style={styles.mainButtonStyle}
-                    onClick={this.handleOpen}>Dialog
+                    onClick={this.handleOpen}>Get Started Today
                 </button>
-                <Dialog style={styles.headlineText} title="Get started today"
+                <Dialog style={styles.headlineText} 
+                    // title="Get started today"
                     actions={actions}
                     modal={false}
                     open={this.state.open}
                     onRequestClose={this.handleClose} >
+                    <h2 style={styles.headlineText}>Get started today</h2>
+                    <p>Ready to make life easy?</p>
+                    <input style={styles.emailInput}placeholder="Email Address" />
                 </Dialog>
             </div>
         );

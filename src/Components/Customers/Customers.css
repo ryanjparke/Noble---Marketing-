@@ -25,6 +25,24 @@
     width: 100%;
     margin-bottom: 100px;
     height: 500px;
-    /* background-color: red; */
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
     border: thin solid black;
+}
+
+.leftOverlay {
+    background-color: red;
+    width: 50%;
+}
+.rightOverlay {
+    background-color:rgba(35, 34, 34, 0.61);
+    /* border-top-left-radius: 100%; */
+    margin-left: 50%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* color: white; */
 }
