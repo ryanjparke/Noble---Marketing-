@@ -32,7 +32,9 @@ class About extends Component {
             <div className='AboutContainer'>
                 <Nav />
                 <div className='vidIntro'>
-                    <video loop autoPlay><source src={Heaven} type="video/mp4" />
+                    <video loop autoPlay muted><source 
+                    src={Heaven} type="video/webm"
+                    src={Heaven} type="video/mp4" />
                     </video>
                     <div className='aboutOverlay'>
                     </div>

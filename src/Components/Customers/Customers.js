@@ -36,6 +36,7 @@ class Customers extends Component {
                     {/* <div className='customerList'> */}
                     <p className='assessmentsHeader'>Meet our Customers</p>
                     <div className='indvCustomer'>
+                    
                         <div className='rightOverlay'>
                         <p>hello</p>
                         </div>

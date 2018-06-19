@@ -17,6 +17,15 @@ const express = require('express'),
         resave: false,
         saveUninitialized: true
     }))
+// ============================== AZURE? ============================== //
+    // var https = require('https');
+    // var port = process.env.port || 1337;
+    // http.createServer(function (req, res) {
+    //     res.writeHead(200, { 'Content-Type' : 'text/plain'});
+    //     res.end('Hello World/n');
+    // }).listen(port)
+
+
 
     // ==================== ENDPOINTS ==================== //
 
@@ -30,6 +39,6 @@ const express = require('express'),
     // })
 
 
-
+// ======== PORT ======== //
     const PORT = 1337;
     app.listen(PORT, () => console.log(`Gotcha on ${PORT} my friend`));
