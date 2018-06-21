@@ -31,7 +31,7 @@ const styles = {
     }
 }
 
-class Modal extends Component {
+class FooterModal extends Component {
     constructor(props) {
         super(props);
 
@@ -83,4 +83,4 @@ class Modal extends Component {
         );
     }
 }
-export default Modal;
+export default FooterModal;
