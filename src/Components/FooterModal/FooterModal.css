@@ -1,0 +1,14 @@
+.footerModalText {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+}
+/* .footerModalText:hover a {
+    color: #2AAAE2;
+} */
+.footerModalText:hover {
+    color: #2AAAE2;
+}

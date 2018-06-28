@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Noblewhite from './../../assets/Noblewhite.png';
 import chaticon from './../../assets/chaticon.png';
+import FooterModal from'../FooterModal/FooterModal';
 
 
 class Footer extends Component {
@@ -24,8 +25,9 @@ class Footer extends Component {
             <div className='footerContainer'>
                 <div className='footerOverlay'>
                     <div className='footerLeft'>
-                    <a href='/demo'><i class="fas fa-comment"></i>
-                    <p>Request a demo</p></a>
+                    <FooterModal />
+                    {/* <a href='/demo'><i class="fas fa-comment"></i> */}
+                    {/* <p>Request a demo</p></a> */}
                     </div>
                     <div className='middleFooter'>
                         <img className='footerNoble' src={Noblewhite} />

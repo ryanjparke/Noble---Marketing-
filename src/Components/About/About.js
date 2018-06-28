@@ -62,7 +62,8 @@ class About extends Component {
                 <div className='mobileTeam'>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={PrincessDiana} />
+                            {/* <img src={PrincessDiana} /> */}
+                            <p>img</p>
                         </div>
                         <div className='memberName'>
                             <p>Diana Norris</p>
@@ -71,7 +72,8 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={aaronA} />
+                            {/* <img src={aaronA} /> */}
+                            <p>img</p>
                         </div>
                         <div className='memberName'>
                             <p>Aaron Picton</p>
@@ -80,7 +82,8 @@ class About extends Component {
                     </div>
                     <div className='member'>
                         <div className='memberPhoto'>
-                            <img src={Markalf} />
+                            {/* <img src={Markalf} /> */}
+                            <p>img</p>
                         </div>
                         <div className='memberName'>
                             <p>Mark Winterman</p>

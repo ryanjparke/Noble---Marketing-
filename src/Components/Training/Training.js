@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './Training.css';
 
 import Nav from '../Nav/Nav';
-import Modal from '../Modal/Modal'
+import Modal from '../Modal/Modal';
+import FooterModal from '../FooterModal/FooterModal';
 
 class Training extends Component {
     constructor(props) {
@@ -36,6 +37,7 @@ class Training extends Component {
                 <div className='rightCustomers'>
                     <p>Training</p>
                     <Modal />
+                    <FooterModal />
                     {/********* FOOTER SECTION *********/}
                     <div className='productsFooterContainer'>
                         <div className='footerLinks'>

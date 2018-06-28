@@ -248,6 +248,8 @@ class Products extends Component {
                                 <a href=''>Give Feedback</a>
                             </div>
                         </div>
+                        <a className='productsSocialIcons'href='https://www.facebook.com/noblesoftwaregroup/' target='_blank'><i class="fab fa-facebook-square"></i> </a>
+
                     </div>
                 </div>
 

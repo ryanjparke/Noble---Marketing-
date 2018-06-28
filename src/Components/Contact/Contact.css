@@ -1,6 +1,66 @@
 .contactContainer {
     margin-top: 10vh;
 }
+.contactHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10vw;
+}
+.contactIntro {
+    display: flex;
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+}
+.contactParagraph {
+    display: flex;
+    text-align: left;
+    margin-left: 10vw;
+}
+.contactContent {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.infoContent {
+    margin-left: 20vw;
+    margin-right: 19vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contactIcon {
+    height: 50px;
+    width: 50px;
+    /* border: thin solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2AAAE2;
+}
+.addressInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.contactInfo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*************** MOBILE VIEW ***************/
@@ -23,12 +83,12 @@
         width: 80%;
         text-align: left;
     }
-    .ourInfo {
+    .contactIntro {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    .theirInfo {
+    .contactParagraph {
         height: 60.5vh;
         display: flex;
         flex-direction: column;
