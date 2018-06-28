@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
+
+import './FooterModal.css';
 import RaisedButton from 'material-ui/RaisedButton';
 import { FloatingActionButton } from 'material-ui';
 
@@ -11,12 +13,15 @@ const styles = {
         marginLeft: 0,
         color: "black",
     },
-    mainButtonStyle: {
-        height: 50,
-        width: "15vw",
-        borderRadius: 50,
-        background: "#46A040",
+    footerButtonStyle: {
+        height: 10,
+        fontSize: 13,
+        // color: "white",
+        // width: "15vw",
+        // borderRadius: 50,
+        // background: "#46A040",
         cursor: "pointer",
+        
     },
     flatButtonStyle: {
         height: 40,
@@ -65,17 +70,19 @@ class FooterModal extends Component {
         ];
 
         return (
-            <div>
-                <button style={styles.mainButtonStyle}
-                    onClick={this.handleOpen}>Get Started Today
-                </button>
+            <div className='footerModalText'>
+                <i class="fas fa-comment"></i>
+                <a 
+                style={styles.footerButtonStyle}
+                    onClick={this.handleOpen}>Request a demo
+                </a>
                 <Dialog style={styles.headlineText} 
                     // title="Get started today"
                     actions={actions}
                     modal={false}
                     open={this.state.open}
                     onRequestClose={this.handleClose} >
-                    <h2 style={styles.headlineText}>Get started today</h2>
+                    <h2 style={styles.headlineText}>Let us know where to reach you</h2>
                     <p>Ready to make life easy?</p>
                     <input style={styles.emailInput}placeholder="Email Address" />
                 </Dialog>

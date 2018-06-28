@@ -164,6 +164,12 @@ opacity: 1;
     width: 100%;
     /* border: thin solid black; */
 }
+.memberPhoto {
+    height: 400px;
+    width: 200px;
+    border: thin solid black;
+
+}
 .memberName {
     display: flex;
     flex-direction: column;

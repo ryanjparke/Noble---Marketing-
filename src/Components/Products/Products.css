@@ -372,7 +372,21 @@
 .footerLinks a:hover {
     color: #2AAAE2;
 }
+/********* SOCIAL ICONS *********/
+.productsSocialIcons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80%; 
+    margin-bottom: 10vh;
+    width: 1%;
+    color: #808080;
+    font-size: 2vh;
+}
 
+.productsSocialIcons:hover {
+    color: #2AAAE2;
+
+}
 .mobileproductstopHeader {
     display: none;
 }
