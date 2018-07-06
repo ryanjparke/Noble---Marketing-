@@ -1,0 +1,92 @@
+.CustomerBackgroundContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center; */
+}
+/*********** SCROLL CONTAINERS **********/
+.customer-scroll-1 {
+    width: 100%;
+    display: grid;
+    background-color: #2AAAE2;
+    z-index: 1;  
+}
+.customer-scroll-2 {
+    width: 100%;
+    /* display: grid; */
+    opacity: 1;
+    position: absolute;
+    z-index: 3;
+}
+.customer-scroll-3 {
+    width: 100%;
+    /* display: grid; */
+    background: none;
+    position: absolute;
+    z-index: 8;
+}
+
+/********** INDIVIDUAL SCROLL ITEMS *********/
+
+/********** CUSTOMER-SCROLL-1 ***********/
+.customer-scroll-1 p {
+    display: flex;
+    justify-content: space-around;
+    animation: customer-scroll-1 infinite 22.6s linear;
+    opacity: .2;
+    font-size: 22px;
+}
+.customer-scroll-1 b {
+    display: flex;
+    justify-content: space-around;
+    animation: customer-scroll-1 infinite 29.6s linear;
+    opacity: .2;
+    font-size: 22px;
+}
+.customer-scroll-1 i {
+    display: flex;
+    justify-content: space-around;
+    animation: customer-scroll-1 infinite 30.2s linear;
+    opacity: .3;
+    font-size: 20px;
+}
+.customer-scroll-1 h2 {
+    /* display: flex; */
+    animation: customer-scroll-1 infinite 28s linear;
+    opacity: .4;
+    font-size: 22px;
+}
+.customer-scroll-1 h1 {
+    /* display: flex; */
+    animation: customer-scroll-1 infinite 24.7s linear;
+    opacity: .2;
+}
+.customer-scroll-1 h3 {
+    /* display: flex; */
+    animation: customer-scroll-2 infinite 22.4s linear;
+    opacity: .3;  
+}
+/********** CUSTOMER-SCROLL-2 ***********/
+
+.customer-scroll-2 b {
+    display: flex;
+    justify-content: space-around;
+    animation: customer-scroll-1 infinite 19.6s linear;
+    opacity: .2;
+    font-size: 22px;
+}
+
+@keyframes customer-scroll-1 {
+    0% { margin-left: -2000px; }
+    100% { margin-right: -2000px; }
+}
+@keyframes customer-scroll-2 {
+    0% { margin-left: -3000px; }
+    100% { margin-right: -6000px; }
+}
+@keyframes customer-scroll-3 {
+    0% { margin-left: -4000px; }
+    100% { margin-right: -7000px; }
+}

@@ -15,6 +15,7 @@ import Customers from './Components/Customers/Customers';
 import Training from './Components/Training/Training';
 import Extensions from './Components/Extensions/Extensions';
 import Integrations from './Components/Integrations/Integrations';
+import CustomerBackground from './Components/CustomerBackground/CustomerBackground';
 
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
             <Route component={Training} path='/training' />
             <Route component={Extensions} path='/extensions' />
             <Route component={Integrations} path='/integrations' />
+            <Route component={CustomerBackground} path='/customerbackground' />
           </Switch>
         </Router>
       </div>

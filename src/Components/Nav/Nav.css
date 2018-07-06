@@ -8,7 +8,7 @@
 .navContainer {
     display: flex;
     position: fixed;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
     top: 0;
@@ -36,10 +36,15 @@
      /* font-family: "Gotham SSm A, SSm B"; */
     font-style: normal;
     font-weight: 300; 
+    margin-left: 10vw;
 }
 .navLeft a {
     text-decoration: none;
     color: white;
+}
+
+.navRight {
+    margin-right: 10vw;
 }
 
 .navRight a {
