@@ -290,10 +290,16 @@
     height: 40vh;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
     justify-content: center;
-    /* background-color: red; */
+    text-align: left;
+}
+.testimonialQuote p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+.testimonialQuote b {
+    font-size: 12px;
+    text-align: left;
 }
 
 /************** ENDING JOIN US SECTION **************/
@@ -345,9 +351,8 @@
 /************* FOOTER *************/
 .productsFooterContainer {
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-items: flex-end;
     width: 16.5%;
     height: 100px;
     width: 100%;
@@ -373,14 +378,23 @@
     color: #2AAAE2;
 }
 /********* SOCIAL ICONS *********/
-.productsSocialIcons {
+.socialFooterContainer {
+    margin-top: 20px;
+    margin-left: 890px;
     display: flex;
     flex-direction: row;
-    margin-left: 80%; 
-    margin-bottom: 10vh;
-    width: 1%;
+    width: 20%;
+    background-color: red;
+}
+.productsSocialIcons {
+    align-content: right;
+    flex-direction: row;
+    /* margin-left: 8px; */
+    /* margin-bottom: 10vh; */
+    width: 100%;
     color: #808080;
     font-size: 2vh;
+
 }
 
 .productsSocialIcons:hover {
