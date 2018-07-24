@@ -200,8 +200,9 @@ class Products extends Component {
                                     <img src={Thumbsup} />
                                 </div>
                                 <div className='testimonialQuote'>
-                                    <p>"Noble has given us a clear and simple way of managing everything we need to do our jobs"</p>
-                                    <h4>George Washington</h4>
+                                    <p>"Thank you for doing so much for the field of probation!  Noble’s contributions and commitment to EBP has added more value to what we do than any single initiative in the past 30 years."</p>
+                                    <h4>Glen Watson</h4>
+                                    <b>Chief Probation Officer</b>
                                 </div>
                             </div>
                             {/********** BOTTOM QUOTE **********/}
@@ -247,9 +248,13 @@ class Products extends Component {
                                 <a href=''>Contact Us</a>
                                 <a href=''>Give Feedback</a>
                             </div>
-                        </div>
-                        <a className='productsSocialIcons'href='https://www.facebook.com/noblesoftwaregroup/' target='_blank'><i class="fab fa-facebook-square"></i> </a>
 
+                            <div className='socialFooterContainer'>
+                                <a className='productsSocialIcons' href='https://www.facebook.com/noblesoftwaregroup/' target='_blank'><i class="fab fa-facebook-square"></i> </a>
+                                <a className='productsSocialIcons' href='' target='blank'><i class="fab fa-instagram"></i> </a>
+                                <a className='productsSocialIcons' href='' target='blank'><i class="fab fa-twitter"></i> </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
