@@ -237,10 +237,15 @@
 
 .techRight {
     width: 50%;
-    background-color: red;
+    border: thin solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.techRight img {
+    width: 70%;
+    position: top;
+    overflow: hidden;
 }
 
 /************** TESTIMONIAL SECTION **************/
@@ -372,35 +377,30 @@
 }
 .footerLinks a {
     text-decoration: none;
-    color: #888888;
+    color: #808080;
 }
 .footerLinks a:hover {
     color: #2AAAE2;
 }
 /********* SOCIAL ICONS *********/
-.socialFooterContainer {
+.footerSocialLinks {
     margin-top: 20px;
-    margin-left: 890px;
-    display: flex;
-    flex-direction: row;
+    margin-left: 54.5vw;
     width: 20%;
-    background-color: red;
-}
-.productsSocialIcons {
+    display: flex;
     align-content: right;
-    flex-direction: row;
-    /* margin-left: 8px; */
-    /* margin-bottom: 10vh; */
-    width: 100%;
+    justify-content: space-between;
+    /* background: red; */
+}
+.footerSocialIcons {
+    text-decoration: none;
     color: #808080;
-    font-size: 2vh;
-
+    font-size: 23px;
 }
-
-.productsSocialIcons:hover {
+.footerSocialIcons:hover {
     color: #2AAAE2;
-
 }
+
 .mobileproductstopHeader {
     display: none;
 }
