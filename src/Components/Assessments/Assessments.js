@@ -104,7 +104,7 @@ class Assessments extends Component {
                             index={this.state.slideIndex} onChangeIndex={this.handleChange}>
                             <div style={styles.views}>
                                 <h2 style={styles.headline}>Juvenile Assessments</h2>
-                                <p style={styles.paragraph}>Noble has juvenile risk classification and need assessment tools that work. Our tools cover behavioral and mental health areas, and assessment results tie to the case planning tool's Big 8 and stabilizing factors, allowing for effective improvement in highlighted need areas.</p>
+                                <p style={styles.paragraph}>Noble has juvenile risk classification and needs assessment tools that work. Our tools cover behavioral and mental health areas, and assessment results tie to the case planning tool's Big 8 and stabilizing factors, allowing for effective improvement in highlighted need areas.</p>
                                 {/* assessment 1 */}
                                 <h4 style={styles.title}>PACT - Positive Achievement Change Tool</h4>
                                 <p style={styles.paragraph}>The PACT is a leading juvenile risk and needs assessment, and is comprised of two assessments: the PACT Pre-screen (PACT Pre) and the PACT Full-Screen (PACT Full) instruments. The PACT Pre is a short screener designed to give practitioner and screening personnel a simple, quick evaluation of a youth's risk level based on criminal and social history background. The PACT Full is a more comprehensive instrument providing insight into the behavioral needs of youth.</p>

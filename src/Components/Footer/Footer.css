@@ -86,7 +86,6 @@
 .rightFooter {
     width: 8vw;
     font-size: 3vh;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -95,7 +94,7 @@
 
 .rightFooter a {
     text-decoration: none;
-    color: black;
+    color: white;
     /* color: #2AAAE2; */
 }
 

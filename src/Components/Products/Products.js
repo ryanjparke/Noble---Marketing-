@@ -9,6 +9,7 @@ import Controlled from '../Controlled Tab/Controlled';
 import Productsback from './../../assets/Productsback.jpg';
 import Desktop from './../../assets/Desktop.png';
 import Thumbsup from './../../assets/Thumbsup.jpg';
+import techSpecPhoto from './../../assets/techSpecPhoto.png';
 
 import { Tabs, Tab } from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
@@ -91,7 +92,7 @@ class Products extends Component {
                             </div>
                             <div className='iconDesc'>
                                 <h5>Readable data</h5>
-                                <p>Something describing it</p>
+                                {/* <p>Something describing it</p> */}
                             </div>
                         </div>
                         {/* SECOND ICON */}
@@ -101,7 +102,7 @@ class Products extends Component {
                             </div>
                             <div className='iconDesc'>
                                 <h5>Visible Growth</h5>
-                                <p>Something describing it</p>
+                                {/* <p>Something describing it</p> */}
                             </div>
                         </div>
                         {/* THIRD ICON */}
@@ -111,7 +112,7 @@ class Products extends Component {
                             </div>
                             <div className='iconDesc'>
                                 <h5>Certified training</h5>
-                                <p>Something describing it</p>
+                                {/* <p>Something describing it</p> */}
                             </div>
                         </div>
                         <div className='indvIcon'>
@@ -120,7 +121,7 @@ class Products extends Component {
                             </div>
                             <div className='iconDesc'>
                                 <h5>Affordable pricing</h5>
-                                <p>Something describing it</p>
+                                {/* <p>Something describing it</p> */}
                             </div>
                         </div>
                     </div>
@@ -131,7 +132,7 @@ class Products extends Component {
                             <p>TECH SPECS</p>
                         </div>
                         <div className='techDesc'>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p>
+                            <p>Noble understands that corrections agencies come in all sizes and have different levels of IT needs. To this end, Noble's assessment platform is available in both cloud-based and on-premise installation options. This provides your agency with the ultimate flexibility around choosing a deployment strategy that is the best fit.</p>
                         </div>
                     </div>
                     <div className='techSection'>
@@ -181,7 +182,7 @@ class Products extends Component {
                             </ul>
                         </div>
                         <div className='techRight'>
-                            <h4>??????</h4>
+                            <img src={techSpecPhoto} img/>
 
                         </div>
                     </div>
@@ -208,13 +209,13 @@ class Products extends Component {
                             {/********** BOTTOM QUOTE **********/}
                             <div className='indvTestimonial'>
                                 <div className='testimonialQuote'>
-                                    <p>"Noble has given us a clear and simple way of managing everything we need to do our jobs"</p>
-                                    <h4>George Washington</h4>
+                                    <p>"In my entire time working in this field, I have never seen a faster response time or turnaround time with any questions we have, you guys are the Chick Fil A of vendors!"</p>
+                                    <h4>Julie Luxton</h4>
+                                    <b>Parker County, TX</b>
                                 </div>
                                 <div className='testimonialImg'>
                                     <img src={Thumbsup} />
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -245,14 +246,17 @@ class Products extends Component {
                             <div className='footerLinks'>
                                 <a href=''>Our Company</a>
                                 <a href=''>Blog</a>
-                                <a href=''>Contact Us</a>
-                                <a href=''>Give Feedback</a>
+                                <a href='/contact'>Contact Us</a>
+                                <a href='mailto:feedback@noblesg.com'>Give Feedback</a>
                             </div>
 
-                            <div className='socialFooterContainer'>
-                                <a className='productsSocialIcons' href='https://www.facebook.com/noblesoftwaregroup/' target='_blank'><i class="fab fa-facebook-square"></i> </a>
-                                <a className='productsSocialIcons' href='' target='blank'><i class="fab fa-instagram"></i> </a>
-                                <a className='productsSocialIcons' href='' target='blank'><i class="fab fa-twitter"></i> </a>
+                            <div className='footerSocialLinks'>
+                                <a
+                                className='footerSocialIcons' href='mailto:info@noblesg.com'><i class="far fa-envelope"></i>
+                                </a>
+                                <a className='footerSocialIcons' href='https://www.facebook.com/noblesoftwaregroup/' target='_blank'><i class="fab fa-facebook-square"></i> </a>
+                                <a className='footerSocialIcons' href='' target='blank'><i class="fab fa-instagram"></i> </a>
+                                <a className='footerSocialIcons' href='' target='blank'><i class="fab fa-twitter"></i> </a>
                             </div>
                         </div>
                     </div>

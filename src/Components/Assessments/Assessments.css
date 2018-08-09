@@ -1,14 +1,18 @@
 .asmtsContainer {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     margin-top: 60px;
-    /* background-color: red; */
+    /* background: url('./../../assets/assessmentsBackground.jpg'); */
+    
+    
+    background-color:rgba(34, 31, 31, 0.61);
 
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; */
-    position: fixed;
+    /* position: fixed; */
     /* align-items: center; */
-    background-size: cover;
+    background-size: 200vh;
+    /* background-position-x: -50%; */
     overflow: hidden;
 }
 .assessmentHeader {

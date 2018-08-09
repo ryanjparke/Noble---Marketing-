@@ -63,10 +63,12 @@ class FooterModal extends Component {
             <FlatButton
                 style={styles.flatButtonStyle}
                 label="Submit"
+                value="Send"
                 primary={true}
                 keyboardFocused={true}
                 onClick={this.handleClose}
-            />
+            />,
+            
         ];
 
         return (
@@ -76,7 +78,7 @@ class FooterModal extends Component {
                 style={styles.footerButtonStyle}
                     onClick={this.handleOpen}>Request a demo
                 </a>
-                <Dialog style={styles.headlineText} 
+                <Dialog action='mailto:info@noblesg.com' method="post" enctype="text/plain" style={styles.headlineText} 
                     // title="Get started today"
                     actions={actions}
                     modal={false}
@@ -85,6 +87,7 @@ class FooterModal extends Component {
                     <h2 style={styles.headlineText}>Let us know where to reach you</h2>
                     <p>Ready to make life easy?</p>
                     <input style={styles.emailInput}placeholder="Email Address" />
+                    <input style={styles.emailInput}type='text' name="county" />
                 </Dialog>
             </div>
         );

@@ -31,7 +31,7 @@ class Home extends Component {
                         <img src={Noblewhite} className='nobleWhite' />
                         <h1>Assessments. Case Planning. Easy.</h1>
                         {/* <Modal /> */}
-                        <a href='/demo'><h4 className='getStarted'>Get started today</h4> </a>
+                        <a href='/products'><h4 className='getStarted'>Get started today</h4> </a>
                     </div>
                 </div>
                 {/************* MOBILE VIEW *************/}
@@ -45,7 +45,7 @@ class Home extends Component {
                             {/* <img src={Mountains}/> */}
                         </div>
                         <p>The world’s most powerful EBP-based risk assessment and case management tool</p>
-                        <a href='/demo'><p className='getStartedMobile'>Get started today</p> </a>
+                        <a href='/products'><p className='getStartedMobile'>Get started today</p> </a>
                     </div>
 
                     <div className='mobileheavyFav'>
